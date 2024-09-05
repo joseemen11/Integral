@@ -12,7 +12,7 @@ const Features = (props) => {
                             </div>
                             <div className="pl-[24px]">
                                 <span className="text-hover_button text-[16px] font-normal">Servicios de</span>
-                                <h3 className="text-[#333] text-[27px] col:text-[22px] font-medium">Auditoria</h3>
+                                <h3 className="text-[#333] text-[27px] col:text-[22px] font-medium">Auditoría</h3>
                             </div>
                         </div>
                     </div>

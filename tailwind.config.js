@@ -29,9 +29,7 @@ module.exports = {
         hover_button: '#47B0AC',
         secondary: '#496451',
         backgroundLight: '#B7CBE6',
-        backgroundDark: '#09657C',
         textLight: '#666666',
-        textDark: '#282e3f',
         buttonHover: '#59C378',
       },
       spacing: {

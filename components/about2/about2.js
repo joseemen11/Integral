@@ -14,9 +14,9 @@ const About2 = (props) => {
           <div className="col-span-6 md:col-span-12">
             <div className="mb-[20px]">
               <div className="text-left sm:text-center">
-                <span className="text-[16px] text-navbar">
+                {/* <span className="text-[16px] text-navbar">
                   Nosotros somos expertos
-                </span>
+                </span> */}
                 <h2
                   className="text-[36px] md:text-[26px] font-medium text-[#333] pb-[20px] relative 
                         before:absolute before:content-[''] before:left-[-68px] 
