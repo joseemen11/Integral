@@ -43,7 +43,7 @@ const Contactpage = () => {
                       Correo
                     </h2>
                     <p className="text-[#666] text-[16px] leading-[22px]">
-                      integralprosrll@gmail.com
+                      integralprosrl@gmail.com
                     </p>
                     {/* <p className="text-[#666] text-[16px] leading-[22px]">helloyou@gmail.com</p> */}
                   </div>

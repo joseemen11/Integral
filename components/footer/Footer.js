@@ -187,10 +187,10 @@ const Footer = (props) => {
               </div>
               <ul>
                 <li className="relative mb-[8px] block text-white">
-                  Piso 4, Oficina 417.
+                Avenida 16 de Julio, Edificio Ex Hotel Plaza
                 </li>
                 <li className="relative mb-[8px] block text-white">
-                Avenida 16 de Julio, Edificio Ex Hotel Plaza
+                  Piso 4, Oficina 417.
                 </li>
                 <li className="relative mb-[8px] block text-white">
                   La Paz, Bolivia
