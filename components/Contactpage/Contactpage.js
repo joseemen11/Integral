@@ -59,7 +59,7 @@ const Contactpage = () => {
                       </div>
                     </div>
                     <h2 className="text-[25px] text-[#282e3f] font-medium my-[20px]">
-                      Llamada
+                      Teléfono
                     </h2>
                     <p className="text-[#666] text-[16px] leading-[22px]">
                       70642519

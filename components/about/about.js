@@ -30,7 +30,7 @@ const About = (props) => {
                             <div className="mb-[50px] col:mb-[20px]">
                                 <Link onClick={ClickHandler} href="/nosotros" className="bg-button cursor-pointer text-[16px] font-semibold text-white px-[38px] py-[10px]  capitalize inline-block mt-[6px] transition ease-in-out duration-300 hover:bg-hover_button
                                 col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
-                                ">Más sobre nosotros..</Link>
+                                ">Más sobre nosotros...</Link>
                             </div>
                             {/* <div className="signature">
                                 <Image  src={sign} alt=""/>

@@ -196,7 +196,7 @@ const Footer = (props) => {
                   La Paz, Bolivia
                 </li>
                 <li className="relative mb-[8px] block text-white">
-                  Teléfono: 70642519 / 70161196
+                  Teléfono: 70642519 - 70161196
                 </li>
                 <li className="relative mb-[8px] block text-white">
                   Email: integralprosrll@gmail.com
