@@ -23,9 +23,9 @@ const Contactpage = () => {
                     <h2 className="text-[25px] text-[#282e3f] font-medium my-[20px]">
                       Dirección
                     </h2>
-                    <p className="text-[#666] text-[16px] leading-[22px]">
-                      Edif. Ex Hotel Plaza, Piso 4, Oficina 417, Av 16 de Julio,
-                      La Paz , Bolivia
+                    <p className="text-[#666] text-[14px] leading-[15px]">
+                    El Prado - Av 16 de Julio Edificio Ex Hotel Plaza, Piso 4
+                    OF. 417
                     </p>
                   </div>
                 </div>
@@ -62,7 +62,7 @@ const Contactpage = () => {
                       Teléfono
                     </h2>
                     <p className="text-[#666] text-[16px] leading-[22px]">
-                      70642519
+                    76721382
                     </p>
                     {/* <p className="text-[#666] text-[16px] leading-[22px]">+1 800 123 654 987</p> */}
                   </div>

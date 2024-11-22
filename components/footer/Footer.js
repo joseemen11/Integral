@@ -15,7 +15,7 @@ const ClickHandler = () => {
 
 const Footer = (props) => {
   return (
-    <footer className="relative bg-footer_bg z-10">
+    <footer className="relative bg-azul1 z-10">
       <div className="pt-[100px] pb-[90px] md:py-[90px] md:pb-[20px] overflow-hidden relative -z-10">
         <div className="wraper">
           <div className="grid grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-3">
@@ -34,7 +34,7 @@ const Footer = (props) => {
               <ul className="overflow-hidden pt-[15px]">
                 <li className="text-white float-left group ">
                   <Link
-                    className="text-white transition-all group-hover:text-hover_text"
+                    className="text-white transition-all group-hover:text-verde1"
                     href="https://m.facebook.com/people/IntegralPro-SRL/100063030170218"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -44,7 +44,7 @@ const Footer = (props) => {
                 </li>
                 {/* <li className="text-white float-left group ml-[15px]">
                   <Link
-                    className="text-white transition-all group-hover:text-[#c0b596]"
+                    className="text-white transition-all group-hover:text-verde1"
                     onClick={SubmitHandler}
                     href="/"
                   >
@@ -53,7 +53,7 @@ const Footer = (props) => {
                 </li>
                 <li className="text-white float-left group ml-[15px]">
                   <Link
-                    className="text-white transition-all group-hover:text-[#c0b596]"
+                    className="text-white transition-all group-hover:text-verde1"
                     onClick={SubmitHandler}
                     href="/"
                   >
@@ -62,7 +62,7 @@ const Footer = (props) => {
                 </li>
                 <li className="text-white float-left group ml-[15px]">
                   <Link
-                    className="text-white transition-all group-hover:text-[#c0b596]"
+                    className="text-white transition-all group-hover:text-verde1"
                     onClick={SubmitHandler}
                     href="/"
                   >
@@ -71,7 +71,7 @@ const Footer = (props) => {
                 </li>
                 <li className="text-white float-left group ml-[15px]">
                   <Link
-                    className="text-white transition-all group-hover:text-[#c0b596]"
+                    className="text-white transition-all group-hover:text-verde1"
                     onClick={SubmitHandler}
                     href="/"
                   >
@@ -89,7 +89,7 @@ const Footer = (props) => {
               <ul>
                 <li className="relative mb-[8px] block">
                   <Link
-                    className=" text-white hover:text-hover_text transition-all"
+                    className=" text-white hover:text-verde1 transition-all"
                     href="/home"
                   >
                     Inicio
@@ -97,7 +97,7 @@ const Footer = (props) => {
                 </li>
                 <li className="relative mb-[8px] block">
                   <Link
-                    className=" text-white hover:text-hover_text transition-all"
+                    className=" text-white hover:text-verde1 transition-all"
                     href="/nosotros"
                   >
                     Nosotros
@@ -105,7 +105,7 @@ const Footer = (props) => {
                 </li>
                 <li className="relative mb-[8px] block">
                   <Link
-                    className=" text-white hover:text-hover_text transition-all"
+                    className=" text-white hover:text-verde1 transition-all"
                     href="/servicios"
                   >
                     Servicios
@@ -113,7 +113,7 @@ const Footer = (props) => {
                 </li>
                 <li className="relative mb-[8px] block">
                   <Link
-                    className=" text-white hover:text-hover_text transition-all"
+                    className=" text-white hover:text-verde1 transition-all"
                     href="/profesionales"
                   >
                     Profesionales
@@ -121,7 +121,7 @@ const Footer = (props) => {
                 </li>
                 <li className="relative mb-[8px] block">
                   <Link
-                    className=" text-white hover:text-hover_text transition-all"
+                    className=" text-white hover:text-verde1 transition-all"
                     href="/contact"
                   >
                     Contacto
@@ -139,7 +139,7 @@ const Footer = (props) => {
                
                   <li className="relative mb-[8px] block" >
                     <Link
-                      className="text-white hover:text-[#c0b596] transition-all"
+                      className="text-white hover:text-verde1 transition-all"
                       onClick={ClickHandler}
                      href="/servicio-esp/Contabilidad-Externa"
                     >
@@ -149,7 +149,7 @@ const Footer = (props) => {
             
                   <li className="relative mb-[8px] block" >
                     <Link
-                      className="text-white hover:text-[#c0b596] transition-all"
+                      className="text-white hover:text-verde1 transition-all"
                       onClick={ClickHandler}
                       href="/servicio-esp/Auditoría-Especializada"
                     >
@@ -159,7 +159,7 @@ const Footer = (props) => {
             
                   <li className="relative mb-[8px] block" >
                     <Link
-                      className="text-white hover:text-[#c0b596] transition-all"
+                      className="text-white hover:text-verde1 transition-all"
                       onClick={ClickHandler}
                      href="/servicio-esp/Gestión-Empresarial"
                     >
@@ -169,7 +169,7 @@ const Footer = (props) => {
             
                   <li className="relative mb-[8px] block" >
                     <Link
-                      className="text-white hover:text-[#c0b596] transition-all"
+                      className="text-white hover:text-verde1 transition-all"
                       onClick={ClickHandler}
                       href="/servicio-esp/Capacitación-Individual-y-Colectiva"
                     >

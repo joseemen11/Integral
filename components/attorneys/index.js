@@ -69,7 +69,7 @@ const Attorney = (props) => {
       <div className="wraper">
         <div className="col-span-12 text-center">
           <div className="mb-[60px]">
-            <span className="text-[16px] text-section">
+            <span className="text-[16px] text-azul1">
               Conoce a nuestros expertos
             </span>
             <h2 className=" text-[36px] md:text-[26px] font-medium text-[#333] pb-[20px] relative before:absolute before:content-[''] before:left-[50%] before:bottom-0 before:transform before:-translate-x-1/2 before:w-[60px] before:h-[3px] before:bg-navbar">
@@ -100,7 +100,7 @@ const Attorney = (props) => {
                       onClick={ClickHandler}
                       href="/profesional/[slug]"
                       as={`/profesional/${attorney.slug}`}
-                      className="text-[#282e3f] hover:text-section transition-all"
+                      className="text-[#282e3f] hover:text-azul1 transition-all"
                     >
                       {attorney.name}{" "}
                     </Link>
@@ -109,36 +109,42 @@ const Attorney = (props) => {
                     {attorney.title}
                   </span>
                   <ul className="flex justify-center my-[20px] transition ease-in-out">
-                    <li className="px-[10px] ">
-                      <Link
-                        onClick={ClickHandler}
-                        href=""
-                        as={``}
-                        className="text-navbar transition-all hover:text-section"
-                      >
-                        <i className="fa fa-facebook" aria-hidden="true"></i>
-                      </Link>
-                    </li>
-                    <li className="px-[10px] ">
-                      <Link
-                        onClick={ClickHandler}
-                        href=""
-                        as={``}
-                        className="text-navbar transition-all hover:text-section"
-                      >
-                        <i className="fa fa-twitter" aria-hidden="true"></i>
-                      </Link>
-                    </li>
-                    <li className="px-[10px] ">
-                      <Link
-                        onClick={ClickHandler}
-                        href=""
-                        as={``}
-                        className="text-navbar transition-all hover:text-section"
-                      >
-                        <i className="fa fa-linkedin" aria-hidden="true"></i>
-                      </Link>
-                    </li>
+                    {attorney?.facebook ? (
+                      <li className="px-[10px] ">
+                        <Link
+                          onClick={ClickHandler}
+                          href={`${attorney?.facebook}`}
+                          as={``}
+                          className="text-navbar transition-all hover:text-azul1"
+                        >
+                          <i className="fa fa-facebook" aria-hidden="true"></i>
+                        </Link>
+                      </li>
+                    ) : null}
+                    {attorney?.instagram ? (
+                      <li className="px-[10px] ">
+                        <Link
+                          onClick={ClickHandler}
+                          href={`${attorney?.instagram}`}
+                          as={``}
+                          className="text-navbar transition-all hover:text-azul1"
+                        >
+                          <i className="fa fa-instagram" aria-hidden="true"></i>
+                        </Link>
+                      </li>
+                    ) : null}
+                    {attorney?.linkdin ? (
+                      <li className="px-[10px] ">
+                        <Link
+                          onClick={ClickHandler}
+                          href={`${attorney?.linkdin}`}
+                          as={``}
+                          className="text-navbar transition-all hover:text-azul1"
+                        >
+                          <i className="fa fa-linkedin" aria-hidden="true"></i>
+                        </Link>
+                      </li>
+                    ) : null}
                   </ul>
                 </div>
               </div>

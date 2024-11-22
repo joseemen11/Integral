@@ -1683,13 +1683,13 @@ All this is done for any sub-level being entered.
 	height: 50px;
 	line-height: 65px;
 	transition: all 0.3s;
-	border: 1px solid #c0b596;
+	border: 1px solid #0A486C;
 	border-radius: 50%;
 	font-size: 0px;
 	z-index: 11;
 }
 .attorney-sec .slick-prev:hover, .attorney-sec .slick-next:hover {
-	background-color: #c0b596;
+	background-color: #0A486C;
 }
 .attorney-sec .slick-prev:hover:before, .attorney-sec .slick-next:hover:before {
 	color: #fff;
@@ -1717,7 +1717,7 @@ All this is done for any sub-level being entered.
 	font-family: "themify";
 	content: "\e629";
 	opacity: 1;
-	color: #c0b596;
+	color: #0A486C;
 }
 .attorney-sec .slick-next {
 	right: -100px;
@@ -1731,7 +1731,7 @@ All this is done for any sub-level being entered.
 	font-family: "themify";
 	content: "\e628";
 	opacity: 1;
-	color: #c0b596;
+	color: #0A486C;
 }
 .slick-dots {
 	text-align: center;

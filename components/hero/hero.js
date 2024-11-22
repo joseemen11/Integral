@@ -23,15 +23,14 @@ const Hero = () => {
           parallax={true}
           navigation
         >
-          <SwiperSlide>
-            <div className="slide-inner slide-bg-image h-[790px] lg:h-[500px] col:h-[450px]"
-            >
+          {/* <SwiperSlide>
+            <div className="slide-inner slide-bg-image h-[790px] lg:h-[500px] col:h-[450px]">
               <div
                 className="slide  relative h-full bg-cover bg-no-repeat z-10  after:absolute after:content-[''] 
             after:w-full after:h-full after:left-0 after:top-0 after:opacity-70 after:z-10"
-            style={{
-              backgroundImage: `url(${"/images/integralPro/slider/portadaintegral.jpg"})`,
-            }}
+                style={{
+                  backgroundImage: `url(${"/images/integralPro/slider/portadaintegral.jpg"})`,
+                }}
               >
                 <div className="wraper">
                   <div className="slide-caption w-[700px] mt-[200px] lg:mt-[110px] md:mt-[120px] col:mt-[100px] absolute top-0 z-20">
@@ -39,13 +38,14 @@ const Hero = () => {
                       className="text-white text-[60px] leading-[90px] lg:text-[42px] lg:leading-[56px] 
                       col:text-[25px] col:leading-[35px] font-normal my-[33px] md:my-[20px]"
                     >
-                      <span>Soluciones Integrales en Contabilidad, Auditoría </span> 
-                      
+                      <span>
+                        Soluciones Integrales en Contabilidad, Auditoría{" "}
+                      </span>
                       <br /> <span> y Gestión Empresarial.</span>
                     </h2>
                     <div className="flex gap-2 sm:grid sm:hidden">
                       <p className="text-white text-[20px] font-light col:text-[18px]">
-                        Transformamos su empresa 
+                        Transformamos su empresa
                       </p>
                       <p className="text-white text-[20px] font-light col:text-[18px]">
                         con servicios profesionales y
@@ -75,7 +75,212 @@ const Hero = () => {
                 </div>
               </div>
             </div>
+          </SwiperSlide> */}
+          <SwiperSlide>
+            <div className="slide-inner slide-bg-image h-[790px] lg:h-[500px] col:h-[450px]">
+              <div
+                className="slide  relative h-full bg-cover bg-no-repeat z-10  after:absolute after:content-[''] 
+            after:w-full after:h-full after:left-0 after:top-0 after:opacity-70 after:z-10"
+                style={{
+                  backgroundImage: `url(${"/images/integralPro/portada/1.jpg"})`,
+                }}
+              >
+                <div className="wraper">
+                  <div className="slide-caption w-[700px] mt-[200px] lg:mt-[110px] md:mt-[120px] col:mt-[100px] absolute top-0 z-20">
+                    <h2
+                      className="text-white text-[60px] leading-[90px] lg:text-[42px] lg:leading-[56px] 
+                      col:text-[25px] col:leading-[35px] font-normal my-[33px] md:my-[20px]"
+                    >
+                      <span>
+                        Contabilidad Externa{" "}
+                      </span>
+                      {/* <br /> <span> y Gestión Empresarial.</span> */}
+                    </h2>
+                    <div className="flex gap-2 sm:grid sm:hidden">
+                      <p className="text-white text-[20px] font-light col:text-[18px]">
+                      Tu negocio en orden,
+                      </p>
+                      <p className="text-white text-[20px] font-light col:text-[18px]">
+                      tus finanzas bajo control.
+                      </p>
+                    
+                    </div>
+                    <div className="btns mt-5">
+                      <div className="btn-style">
+                        <Link
+                          onClick={ClickHandler}
+                          href="/servicio-esp/Contabilidad-Externa"
+                          className="bg-azul1 relative cursor-pointer text-[16px]
+                             font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
+                             transition ease-in-out duration-300 hover:bg-verde1
+                            col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
+                            before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
+                             before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 
+                             before:transition-all hover:before:left-[-95px] md:before:hidden"
+                        >
+                          Descubra más
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide-inner slide-bg-image h-[790px] lg:h-[500px] col:h-[450px]">
+              <div
+                className="slide  relative h-full bg-cover bg-no-repeat z-10  after:absolute after:content-[''] 
+            after:w-full after:h-full after:left-0 after:top-0 after:opacity-70 after:z-10"
+                style={{
+                  backgroundImage: `url(${"/images/integralPro/portada/2.jpg"})`,
+                }}
+              >
+                <div className="wraper">
+                  <div className="slide-caption w-[700px] mt-[200px] lg:mt-[110px] md:mt-[120px] col:mt-[100px] absolute top-0 z-20">
+                    <h2
+                      className="text-white text-[60px] leading-[90px] lg:text-[42px] lg:leading-[56px] 
+                      col:text-[25px] col:leading-[35px] font-normal my-[33px] md:my-[20px]"
+                    >
+                      <span>
+                        Auditoría Especializada{" "}
+                      </span>
+                      {/* <br /> <span> y Gestión Empresarial.</span> */}
+                    </h2>
+                    <div className="flex gap-2 sm:grid sm:hidden">
+                      <p className="text-white text-[20px] font-light col:text-[18px]">
+                      Transparencia y precisión 
+                      </p>
+                      <p className="text-white text-[20px] font-light col:text-[18px]">
+                      para la confianza financiera.
+                      </p>
+                    
+                    </div>
+                    <div className="btns mt-5">
+                      <div className="btn-style">
+                        <Link
+                          onClick={ClickHandler}
+                          href="/servicio-esp/Auditoría-Especializada"
+                          className="bg-azul1 relative cursor-pointer text-[16px]
+                             font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
+                             transition ease-in-out duration-300 hover:bg-verde1
+                            col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
+                            before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
+                             before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 
+                             before:transition-all hover:before:left-[-95px] md:before:hidden"
+                        >
+                          Descubra más
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide-inner slide-bg-image h-[790px] lg:h-[500px] col:h-[450px]">
+              <div
+                className="slide  relative h-full bg-cover bg-no-repeat z-10  after:absolute after:content-[''] 
+            after:w-full after:h-full after:left-0 after:top-0 after:opacity-70 after:z-10"
+                style={{
+                  backgroundImage: `url(${"/images/integralPro/portada/3.jpg"})`,
+                }}
+              >
+                <div className="wraper">
+                  <div className="slide-caption w-[700px] mt-[200px] lg:mt-[110px] md:mt-[120px] col:mt-[100px] absolute top-0 z-20">
+                    <h2
+                      className="text-white text-[60px] leading-[90px] lg:text-[42px] lg:leading-[56px] 
+                      col:text-[25px] col:leading-[35px] font-normal my-[33px] md:my-[20px]"
+                    >
+                      <span>
+                        Gestión Empresarial{" "}
+                      </span>
+                      {/* <br /> <span> y Gestión Empresarial.</span> */}
+                    </h2>
+                    <div className="flex gap-2 sm:grid sm:hidden">
+                      <p className="text-white text-[20px] font-light col:text-[18px]">
+                      Estrategias claras,  
+                      </p>
+                      <p className="text-white text-[20px] font-light col:text-[18px]">
+                      resultados excepcionales.
+                      </p>
+                    
+                    </div>
+                    <div className="btns mt-5">
+                      <div className="btn-style">
+                        <Link
+                          onClick={ClickHandler}
+                          href="/servicio-esp/Gestión-Empresarial"
+                          className="bg-azul1 relative cursor-pointer text-[16px]
+                             font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
+                             transition ease-in-out duration-300 hover:bg-verde1
+                            col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
+                            before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
+                             before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 
+                             before:transition-all hover:before:left-[-95px] md:before:hidden"
+                        >
+                          Descubra más
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide-inner slide-bg-image h-[790px] lg:h-[500px] col:h-[450px]">
+              <div
+                className="slide  relative h-full bg-cover bg-no-repeat z-10  after:absolute after:content-[''] 
+            after:w-full after:h-full after:left-0 after:top-0 after:opacity-70 after:z-10"
+                style={{
+                  backgroundImage: `url(${"/images/integralPro/portada/4.jpg"})`,
+                }}
+              >
+                <div className="wraper">
+                  <div className="slide-caption w-[700px] mt-[200px] lg:mt-[110px] md:mt-[120px] col:mt-[100px] absolute top-0 z-20">
+                    <h2
+                      className="text-white text-[60px] leading-[90px] lg:text-[42px] lg:leading-[56px] 
+                      col:text-[25px] col:leading-[35px] font-normal my-[33px] md:my-[20px]"
+                    >
+                      <span>
+                      Capacitación Individual y Colectiva{" "}
+                      </span>
+                      {/* <br /> <span> y Gestión Empresarial.</span> */}
+                    </h2>
+                    <div className="flex gap-2 sm:grid sm:hidden">
+                      <p className="text-white text-[20px] font-light col:text-[18px]">
+                      Aprende, crece 
+                      </p>
+                      <p className="text-white text-[20px] font-light col:text-[18px]">
+                      y lidera con conocimiento.
+                      </p>
+                    
+                    </div>
+                    <div className="btns mt-5">
+                      <div className="btn-style">
+                        <Link
+                          onClick={ClickHandler}
+                          href="/servicio-esp/Capacitación-Individual-y-Colectiva"
+                          className="bg-azul1 relative cursor-pointer text-[16px]
+                             font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
+                             transition ease-in-out duration-300 hover:bg-verde1
+                            col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
+                            before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
+                             before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 
+                             before:transition-all hover:before:left-[-95px] md:before:hidden"
+                        >
+                          Descubra más
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          
           {/* <SwiperSlide>
             <div
               className="slide-inner slide-bg-image h-[790px] lg:h-[500px] col:h-[450px]"

@@ -12,7 +12,7 @@ const PageTitle = (props) => {
                         <li className="inline-block py-0 px-[5px] text-white relative  text-[18px] font-base-font md:text-[18px] after:content-['/'] after:absolute after:right-[-5px]">
                             <Link className="text-white  transition-all hover:text-[#cbbc99]" href="/">Inicio</Link>
                         </li>
-                        <li className="inline-block  px-[5px] text-section text-[18px] font-base-font md:text-[18px]">{props.pagesub}</li>
+                        <li className="inline-block  px-[5px] text-verde1 text-[18px] font-base-font md:text-[18px]">{props.pagesub}</li>
                     </ol>
                 </div>
             </div>
