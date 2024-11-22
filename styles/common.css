@@ -1396,7 +1396,7 @@ All this is done for any sub-level being entered.
 	background: none;
 	padding: 8px 16px;
 	/* border: 2px solid #c0b596; */
-	border: 2px solid #6CC2B5;
+	border: 2px solid #0A486C;
 	border-radius: 30px;
 }
 
@@ -1411,7 +1411,7 @@ All this is done for any sub-level being entered.
 	width: 100%;
 	height: 100%;
 	/* background: #c0b596; */
-	background: #6CC2B5;
+	background: #8DC829;
 	transition: all 0.5s ease-out;
 	opacity: 0;
 	z-index: -1;
@@ -1420,7 +1420,7 @@ All this is done for any sub-level being entered.
 .theme-btn:hover,
 .theme-btn:focus,
 .theme-btn:active {
-	background: #6CC2B5;
+	background: #8DC829;
 	color: #fff;
 }
 
@@ -1757,7 +1757,7 @@ All this is done for any sub-level being entered.
 	display: none;
 }
 .slick-dots li.slick-active button {
-	background: #c0b596;
+	background: #0A486C;
 	width: 45px;
 }
 :hover .attorney-sec .slick-prev, :hover .attorney-sec .slick-next {
@@ -2094,7 +2094,7 @@ label.error {
     height: 100vh;
     width: 250px;
     /* background: #272c3f; */
-    background: #066A79;
+    background: #0A486C;
     transition: all 0.3s ease 0s;
     box-shadow: 0px 10px 40px 0px rgba(50, 50, 50, 0.1);
     overflow-x: auto;
@@ -2115,7 +2115,7 @@ label.error {
     top: 0;
     z-index: 999;
     cursor: pointer;
-    background: #47B0AC;
+    background: #8DC829;
 }
 .showmenu button{
     border: 0;

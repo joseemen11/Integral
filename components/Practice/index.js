@@ -13,7 +13,7 @@ const Practice = (props) => {
         <div className="col-span-12 text-center">
           <div className="mb-[60px]">
             {/* <span className="text-[16px] text-[#ada282]">Area Of Practice</span> */}
-            <h2 className=" text-[36px] md:text-[26px] font-medium text-[#333] pb-[20px] relative before:absolute before:content-[''] before:left-[50%] before:bottom-0 before:transform before:-translate-x-1/2 before:w-[60px] before:h-[3px] before:bg-section">
+            <h2 className=" text-[36px] md:text-[26px] font-medium text-[#333] pb-[20px] relative before:absolute before:content-[''] before:left-[50%] before:bottom-0 before:transform before:-translate-x-1/2 before:w-[60px] before:h-[3px] before:bg-azul1">
               Nuestros Valores
             </h2>
           </div>
@@ -26,26 +26,26 @@ const Practice = (props) => {
             >
               <div className="group flex sm:mx-[80px] col:mx-0">
                 <div className="h-[80px] w-[80px]">
-                  <div className="h-[80px] w-[80px] leading-[75px] border border-[rgba(192, 181, 150, .5)] rounded-[50%] text-center">
+                  <div className="h-[80px] w-[80px] leading-[75px] border border-azul1/50 rounded-[50%] text-center">
                     <i
-                      className={`fi ${practice.icon}  text-[50px] col:text-[40px] col:leading-[45px] transition-all text-footer_bg group-hover:text-section`}
+                      className={`fi ${practice.icon}  text-[50px] col:text-[40px] col:leading-[45px] transition-all text-azul1 group-hover:text-verde1`}
                     ></i>
                   </div>
                 </div>
-                <div className="pl-[24px]">
+                <div className="pl-[24px]  pr-[15px]">
                   <h3
-                    className="text-[#373737] text-[24px] col:text-[20px] font-medium pb-[10px] relative mb-[10px]
-                            before:absolute before:content-[''] before:left-0 before:bottom-0 before:w-[30px] before:h-[2px] before:bg-footer_bg"
+                    className="text-azul1 text-[24px] col:text-[20px] font-medium pb-[10px] relative mb-[10px]
+                            before:absolute before:content-[''] before:left-0 before:bottom-0 before:w-[30px] before:h-[2px] before:bg-azul1"
                   >
-                    <Link
-                      onClick={ClickHandler}
+                    <div
+                      // onClick={ClickHandler}
                       href="/practice-single/[slug]"
                       as={`/practice-single/${practice.slug}`}
                     >
                       {practice.sTitle}
-                    </Link>
+                    </div>
                   </h3>
-                  <p className="text-[#777] text-[16px] font-normal">
+                  <p className="text-[#777] text-[16px] font-normal text-justify">
                     {practice.description}
                   </p>
                 </div>

@@ -54,17 +54,32 @@ const menus = [
             {
                 id: 71,
                 title: 'Andrés Uria',
-                link: '/profesional-single/Andrés-Uria'
+                link: '/profesional/Andrés-Uria'
             },
             {
                 id: 72,
                 title: 'Daniela Uria',
-                link: '/profesional-single/Daniela-Uria'
+                link: '/profesional/Daniela-Uria'
             },
             {
                 id: 74,
                 title: 'Fernando Uria',
-                link: '/profesional-single/Fernando-Uria'
+                link: '/profesional/Fernando-Uria'
+            },
+            {
+                id: 74,
+                title: 'Martha Palma',
+                link: '/profesional/Martha-Palma'
+            },
+            {
+                id: 74,
+                title: 'Shirley Vera',
+                link: '/profesional/Shirley-Vera'
+            },
+            {
+                id: 74,
+                title: 'Andrea Tapia',
+                link: '/profesional/Andres-Tapia'
             },
         ]
     },

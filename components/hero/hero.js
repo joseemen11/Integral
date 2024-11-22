@@ -30,7 +30,7 @@ const Hero = () => {
                 className="slide  relative h-full bg-cover bg-no-repeat z-10  after:absolute after:content-[''] 
             after:w-full after:h-full after:left-0 after:top-0 after:opacity-70 after:z-10"
             style={{
-              backgroundImage: `url(${"/images/integralPro/slider/img-portada.jpg"})`,
+              backgroundImage: `url(${"/images/integralPro/slider/portadaintegral.jpg"})`,
             }}
               >
                 <div className="wraper">
@@ -59,9 +59,9 @@ const Hero = () => {
                         <Link
                           onClick={ClickHandler}
                           href="/contact"
-                          className="bg-button relative cursor-pointer text-[16px]
+                          className="bg-azul1 relative cursor-pointer text-[16px]
                              font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
-                             transition ease-in-out duration-300 hover:bg-hover_button
+                             transition ease-in-out duration-300 hover:bg-verde1
                             col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
                             before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
                              before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 

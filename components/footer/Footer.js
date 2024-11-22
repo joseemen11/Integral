@@ -199,7 +199,7 @@ const Footer = (props) => {
                   Teléfono: 70642519 - 70161196
                 </li>
                 <li className="relative mb-[8px] block text-white">
-                  Email: integralprosrll@gmail.com
+                  Email: integralprosrl@gmail.com
                 </li>
               </ul>
             </div>

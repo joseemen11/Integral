@@ -16,7 +16,12 @@ module.exports = {
       colors: {
         
         primary: '#C7DFAF',
-        navbar: '#066A79',
+        // navbar: '#066A79',
+        navbar: '#0A486C',
+        azul1: '#0A486C',
+        celeste1: '#DEEDF6',
+        verde1: '#8DC829',
+        blanco: '#FFFFFF',
         section:' #78C5BD',
         aboutus: '#C7DFAF',
         text_both: '#32497D',

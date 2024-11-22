@@ -5,8 +5,8 @@ const ConsultingArea = (props) => {
   return (
     <section
       className="relative bg-center bg-cover bg-no-repeat bg-fixed py-[100px] z-10 
-   before:content-[''] before:bg-footer_bg/30 before:w-full before:h-full before:absolute before:left-0 before:-z-10 before:top-0"
-      style={{ backgroundImage: `url(${"/images/integralPro/consulta/negocios.jpg"})` }}
+   before:content-[''] before:bg-azul1/30 before:w-full before:h-full before:absolute before:left-0 before:-z-10 before:top-0"
+      style={{ backgroundImage: `url(${"/images/integralPro/consulta/DSC_2140.jpg"})` }}
     >
       <div className="wraper">
         <div className="grid grid-cols-12 gap-3">
@@ -20,7 +20,7 @@ const ConsultingArea = (props) => {
                   className="text-[36px] md:text-[26px] font-medium text-white pb-[20px] md:pb-[10px] relative 
                         before:absolute before:content-[''] before:left-[-68px] 
                         before:top-[30px] before:transform before:-translate-y-1/2 
-                        before:w-[60px] before:h-[1px] before:bg-navbar md:before:hidden"
+                        before:w-[60px] before:h-[1px] before:bg-azul1 md:before:hidden"
                 >
                   Consulta gratuita
                 </h2>

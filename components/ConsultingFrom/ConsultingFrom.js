@@ -78,7 +78,7 @@ const ConsultingForm = () => {
     >
       <div className="w-[calc(50%-30px)] float-left mx-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
         <input
-          className="form-control w-full font-normal bg-white h-[50px] border border-footer_bg text-black transition-all pl-[15px] focus:outline-0 focus:shadow-none focus:border-transparent focus:bg-white"
+          className="form-control w-full font-normal bg-white h-[50px] border border-azul1 text-black transition-all pl-[15px] focus:outline-0 focus:shadow-none focus:border-transparent focus:bg-white"
           value={forms.name}
           type="text"
           name="name"
@@ -90,7 +90,7 @@ const ConsultingForm = () => {
       </div>
       <div className="w-[calc(50%-30px)] float-left mx-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
         <input
-          className="form-control w-full font-normal bg-white h-[50px] border border-footer_bg text-black transition-all pl-[15px] focus:outline-0 focus:shadow-none focus:border-transparent focus:bg-white"
+          className="form-control w-full font-normal bg-white h-[50px] border border-azul1 text-black transition-all pl-[15px] focus:outline-0 focus:shadow-none focus:border-transparent focus:bg-white"
           value={forms.email}
           type="email"
           name="email"
@@ -102,7 +102,7 @@ const ConsultingForm = () => {
       </div>
       <div className="w-[calc(50%-30px)] float-left mx-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
         <input
-          className="form-control w-full font-normal bg-white h-[50px] border border-footer_bg text-black transition-all pl-[15px] focus:outline-0 focus:shadow-none focus:border-transparent focus:bg-white"
+          className="form-control w-full font-normal bg-white h-[50px] border border-azul1 text-black transition-all pl-[15px] focus:outline-0 focus:shadow-none focus:border-transparent focus:bg-white"
           value={forms.phone}
           type="text"
           name="phone"
@@ -114,7 +114,7 @@ const ConsultingForm = () => {
       </div>
       <div className="w-[calc(50%-30px)] float-left mx-[15px] mb-[25px] col:float-none col:w-[calc(100%-25px)]">
         <select
-          className="form-control w-full font-normal bg-white h-[50px] border border-footer_bg text-black transition-all pl-[15px] focus:outline-0 focus:shadow-none focus:border-transparent focus:bg-white"
+          className="form-control w-full font-normal bg-white h-[50px] border border-azul1 text-black transition-all pl-[15px] focus:outline-0 focus:shadow-none focus:border-transparent focus:bg-white"
           value={forms.subject}
           name="subject"
           onBlur={changeHandler}
@@ -124,12 +124,13 @@ const ConsultingForm = () => {
           <option value="Contabilidad">Servicio de Contabilidad</option>
           <option value="Auditoria">Servicio de Auditoría</option>
           <option value="Gestion">Servicio de Gestión Empresarial</option>
+          <option value="Gestion">Servicio de Capacitación</option>
         </select>
         {validator.message("subject", forms.subject, "required")}
       </div>
       <div className="w-[calc-(100%-25px)] mb-[25px] mx-[15px]">
         <textarea
-          className="form-control w-full bg-white h-[150px] border border-footer_bg text-black transition-all pt-[15px] pl-[15px] focus:outline-0 focus:shadow-none focus:border-transparent focus:bg-white"
+          className="form-control w-full bg-white h-[150px] border border-azul1 text-black transition-all pt-[15px] pl-[15px] focus:outline-0 focus:shadow-none focus:border-transparent focus:bg-white"
           value={forms.message}
           name="message"
           placeholder="Tu Mensaje"
@@ -141,7 +142,7 @@ const ConsultingForm = () => {
       <div className="text-left w-full mb-[10px] ml-[16px]">
         <button
           type="submit"
-          className="bg-navbar text-[16px] rounded-lg font-semibold text-white px-[38px] py-[10px] capitalize inline-block mt-[6px] transition ease-in-out duration-300 hover:bg-section"
+          className="bg-azul1 text-[16px] rounded-lg font-semibold text-white px-[38px] py-[10px] capitalize inline-block mt-[6px] transition ease-in-out duration-300 hover:bg-verde1"
         >
           Enviar
         </button>

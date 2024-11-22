@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
-import abImg from "/public/images/about/1.jpg";
+import abImg from "/public/images/integralPro/logos/Logocuadradoblanco.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -27,7 +27,7 @@ const About2 = (props) => {
                 </h2>
               </div>
               <p className="text-[#666] text-[15px] leading-[28px] mb-[30px]">
-                INTEGRALPRO S.R.L. Consultores en Contabilidad, Auditoría y
+                {/* INTEGRALPRO S.R.L. Consultores en Contabilidad, Auditoría y
                 Gestión Empresarial. es una empresa del sector privado
                 constituida en estricto cumplimiento de las Leyes y Normas del
                 Estado Plurinacional de Bolivia, mediante Testimonio No.
@@ -35,17 +35,30 @@ const About2 = (props) => {
                 fe pública No. 25, del distrito judicial de La Paz legalmente
                 representada por el señor MSc. Lic. Aud. Andres Fernando Uria
                 Palma, mayor de edad, hábil por derecho, titular de la cédula de
-                identidad No. 8333093 expendida en La Paz.
+                identidad No. 8333093 expendida en La Paz. */}
+                INTEGRALPRO S.R.L. es una empresa boliviana especializada en
+                Contabilidad, Auditoría y Gestión Empresarial, constituida
+                legalmente el 06 de julio de 2020 bajo el Testimonio No.
+                176/2020. Representada por MSc. ANDRÉS URIA - DIRECTOR EJECUTIVO
+                (CEO), brindamos soluciones financieras de alta calidad,
+                cumpliendo con las normativas del Estado Plurinacional de
+                Bolivia.
               </p>
               <p className="text-[#666] text-[15px] leading-[28px] mb-[30px]">
                 {" "}
-                Cuya representación legal se encuentra acreditada mediante el
+                {/* Cuya representación legal se encuentra acreditada mediante el
                 Testimonio de Poder No. 287/2020 suscrito ante notaría de fe
                 pública No. 25. del distrito judicial de La Paz, empadronada en
                 el Servicio de Impuestos Nacionales con número de identificación
                 tributaria (NIT) 392729029, con matrícula de comercio No.
                 00431770, domicilio en la Zona Sur Calle 9 de Calacoto N°7815,
-                Edificio San Gabriel, Piso 4 Oficina 404 de la ciudad de La Paz.
+                Edificio San Gabriel, Piso 4 Oficina 404 de la ciudad de La Paz. */}
+                Nuestra sede se encuentra en El Prado – Av. 16 de Julio Edificio
+                Ex Hotel Plaza, Piso 4 OF. 417. Contamos con Número de
+                Identificación Tributaria, Matrícula de Comercio, y Registro en
+                el Colegio de Auditores de Bolivia, garantizando
+                profesionalismo, transparencia y un enfoque personalizado para
+                el éxito de nuestros clientes.
               </p>
               {/* <div className="mb-[50px] col:mb-[20px]">
                 <Link
@@ -62,15 +75,15 @@ const About2 = (props) => {
           <div className="col-span-6 md:col-span-12">
             <div className="relative mb-[20px]">
               <div
-                className="relative  max-w-[520px] ml-auto before:absolute before:bg-section
+                className="relative  max-w-[520px] ml-auto before:absolute before:bg-verde1
                      before:w-full before:h-full before:content-[''] before:-z-30 before:right-[-10px] before:bottom-[-10px] "
               >
                 <div
-                  className="relative after:absolute after:bg-[rgba(21,26,48,.40)] after:content-[''] 
+                  className="relative after:absolute after:bg-azul1/10 after:content-[''] 
                         after:z-30 after:w-full after:h-full after:left-0 after:top-0"
                 >
                   <Image className="w-full" src={abImg} alt="" />
-                  <div className="absolute left-0 top-0 w-full h-full transition-all ease-in-out flex justify-center flex-col text-center z-[99]">
+                  {/* <div className="absolute left-0 top-0 w-full h-full transition-all ease-in-out flex justify-center flex-col text-center z-[99]">
                     <ul>
                       <li>
                         <span
@@ -82,7 +95,7 @@ const About2 = (props) => {
                         </span>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

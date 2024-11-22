@@ -84,21 +84,22 @@ const Attorney = (props) => {
                 className="overflow-hidden relative shadow-[1px_1px_5px_rgba(0,0,5,8%)] group"
                 key={aitem}
               >
-                <div className="expert-img">
+                <div className="expert-img overflow-hidden relative w-full h-[400px] md:h-[350px] lg:h-[400px]">
                   <Image
-                    className="w-full h-[300px] md:h-[350px] lg:h-[400px] object-cover" // Ajusta las alturas con breakpoints
+                    className="w-full h-full object-cover object-top"
                     src={attorney.AtImg}
                     alt={attorney.AtImg}
                     width={400}
                     height={400}
                   />
                 </div>
+
                 <div className="relative text-center mt-[-40px] bg-[#f5f5f5] transform translate-y-[40px] transition ease-in-out duration-300 group-hover:translate-y-0 group-hover:bg-[#fff]">
                   <h3 className="text-[24px] col:text-[20px] font-medium pt-[30px] pb-[8px]  font-heading-font">
                     <Link
                       onClick={ClickHandler}
-                      href="/profesional-single/[slug]"
-                      as={`/profesional-single/${attorney.slug}`}
+                      href="/profesional/[slug]"
+                      as={`/profesional/${attorney.slug}`}
                       className="text-[#282e3f] hover:text-section transition-all"
                     >
                       {attorney.name}{" "}

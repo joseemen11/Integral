@@ -1,6 +1,6 @@
-import cimg1 from "/public/images/integralPro/services/img-1.jpg";
-import cimg2 from "/public/images/integralPro/services/img-2.jpg";
-import cimg3 from "/public/images/integralPro/services/img-3.jpg";
+import cimg1 from "/public/images/integralPro/departamentos/auditoria.jpg";
+import cimg2 from "/public/images/integralPro/departamentos/contabilidad.jpg";
+import cimg3 from "/public/images/integralPro/departamentos/gestion.jpg";
 import cimg4 from "/public/images/integralPro/services/img-4.jpg";
 import cimg5 from "/public/images/studies/5.jpg";
 import cimg6 from "/public/images/studies/6.jpg";
@@ -8,7 +8,7 @@ import cimg6 from "/public/images/studies/6.jpg";
 const Cases = [
   {
     Id: "1",
-    cTitle: "Contabilidad Externa – D.C.I. ",
+    cTitle: "Contabilidad Externa",
     slug: "Contabilidad-Externa",
     sub: "Departamento de",
     cImg: cimg1,
@@ -23,7 +23,7 @@ const Cases = [
   },
   {
     Id: "2",
-    cTitle: "Auditoría Especializada – D.A.E",
+    cTitle: "Auditoría Especializada",
     slug: "Auditoría-Especializada",
     sub: "Departamento de",
     cImg: cimg2,
@@ -38,7 +38,7 @@ const Cases = [
   },
   {
     Id: "3",
-    cTitle: "Gestión Empresarial – D.G.E.",
+    cTitle: "Gestión Empresarial",
     slug: "Gestión-Empresarial",
     sub: "Departamento de",
     cImg: cimg3,
@@ -55,7 +55,7 @@ const Cases = [
   },
   {
     Id: "4",
-    cTitle: "Capacitación Individual y Colectiva – D.C.I.C.",
+    cTitle: "Capacitación Individual y Colectiva ",
     slug: "Capacitación-Individual-y-Colectiva",
     sub: "Departamento de",
     cImg: cimg4,
