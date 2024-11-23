@@ -5,9 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Sidebar = (props) => {
-   const actual = props.actual;
-    
-    
+  const actual = props.actual;
+
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   };
@@ -68,26 +67,35 @@ const Sidebar = (props) => {
             Otros Servicios
           </h3>
           <div className="mt-[10px]">
-          {Cases.filter((cases) => cases.cTitle !== actual).slice(0, 3).map((cases, i) => (
-              <div className="overflow-hidden flex mt-3" key={i}>
-                <div className="w-[90px]">
-                  <Image className="w-full" src={cases.cImg} alt="" />
-                </div>
-                <div className="pl-[20px] w-[calc(100%-90px)]">
-                  <h4>
-                    <Link
-                      onClick={ClickHandler}
-                      href="/servicio-esp/[slug]"
-                      as={`/servicio-esp/${cases.slug}`}
-                      className="inline-block font-base-font font-medium
+          {Cases.filter((cases) => cases.cTitle !== actual)
+              .slice(0, 3)
+              .map((cases, i) => (
+                <div className="overflow-hidden flex mt-3" key={i}>
+                  {/* Imagen con tamaño fijo */}
+                  <div className="w-[90px] h-[90px] flex-shrink-0 overflow-hidden">
+                    <Image
+                      src={cases.cImg}
+                      alt=""
+                      width={90}
+                      height={90}
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <div className="pl-[20px] w-[calc(100%-90px)]">
+                    <h4>
+                      <Link
+                        onClick={ClickHandler}
+                        href="/servicio-esp/[slug]"
+                        as={`/servicio-esp/${cases.slug}`}
+                        className="inline-block font-base-font font-medium
                      text-[#666] transition-all hover:text-section"
-                    >
-                      {cases.cTitle}
-                    </Link>
-                  </h4>
+                      >
+                        {cases.cTitle}
+                      </Link>
+                    </h4>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
         </div>
       </div>

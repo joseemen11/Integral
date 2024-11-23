@@ -12,25 +12,26 @@ import Image from "next/image";
 const CaseSinglePage = (props) => {
   const router = useRouter();
   const caseDetails = Cases.find((item) => item.slug === router.query.slug);
+  
   const actual = caseDetails?.cTitle;
 
   return (
     <Fragment>
       <Navbar />
-      <PageTitle pageTitle={caseDetails?.cTitle} pagesub={caseDetails?.slug} />
+      <PageTitle pageTitle={caseDetails?.cTitle} pagesub={caseDetails?.slug} img={caseDetails?.cImg} />
       <div className="pt-[50px] md:py-[30px]">
         <div className="wraper">
           <div className="grid grid-cols-12 gap-3">
             <div className="col-span-8 md:col-span-12 order-1">
-              <Image
+              {/* <Image
                 className="w-full max-h-[400px] object-cover"
                 src={caseDetails?.cImg}
                 alt=""
-              />
-              <div className="pt-[50px]">
-                <h2 className="text-[36px]  text-[#282e3f] mt-3">
+              /> */}
+              <div className="pt-[20px]">
+                {/* <h2 className="text-[36px]  text-[#282e3f] mt-3">
                   {caseDetails?.cTitle}
-                </h2>
+                </h2> */}
                 <h6 className="text-[18px] font-base-font leading-[40px] text-[#282e3f] mt-3">
                   {caseDetails?.par1}
                 </h6>

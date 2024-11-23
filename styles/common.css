@@ -2243,7 +2243,7 @@ ul.smothscroll {
     z-index: 99;
 }
 ul.smothscroll a {
-    background-color: #78C5BD;
+    background-color: #0A486C;
     width: 45px;
     height: 45px;
     line-height: 45px;
@@ -2253,10 +2253,10 @@ ul.smothscroll a {
     color: #fff;
     background-size: 200%,1px;
     background-position: 0;
-    border: 2px solid #066A79;
+    border: 2px solid #8DC829;
 }
 ul.smothscroll a:hover {
-    background-color: #47B0AC;
+    background-color: #DEEDF6;
     color: #fff;
 }
 
