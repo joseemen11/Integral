@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 // import Logo from "/public/images/logo.png";
 import Practices from "../../api/Practices";
-import Logo from '/public/images/integralPro/logos/logo_vertical.png'
+import Logo from '/public/images/integralPro/logos/Logo_vertical.png'
 import Image from "next/image";
 
 const SubmitHandler = (e) => {
