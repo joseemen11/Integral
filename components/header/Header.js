@@ -21,10 +21,10 @@ const Header = (props) => {
       <div className="bg-celeste1 pt-[5px] sm:hidden">
         {/* <div className="wraper relative before:absolute before:w-full before:h-[1px] before:bg-[rgba(255,255,255,.07)] before:bottom-0 before:left-0 before:content-['']"> */}
         <div className=" relative before:absolute before:w-full before:h-[1px] before:bg-[rgba(255,255,255,.07)] before:bottom-0 before:left-0 before:content-['']">
-          <div className="grid grid-cols-12">
+          <div className="grid grid-cols-11">
             <div className="col-span-10 md:col-span-12">
               <ul className="text-left md:text-center lg:text-[15px] sm:text-[12.5px]">
-                <li className="relative text-white inline-block px-10 col:pr-0  before:absolute before:content-[''] before:left-0 before:top-[15px] before:w-[1px] before:h-[25px] before:bg-[rgba(255,255,255,.07)] md:before:hidden  before:z-10 before:transform before:-translate-x-1/2 ">
+                <li className="relative text-white inline-block px-5 col:pr-0  before:absolute before:content-[''] before:left-0 before:top-[15px] before:w-[1px] before:h-[25px] before:bg-[rgba(255,255,255,.07)] md:before:hidden  before:z-10 before:transform before:-translate-x-1/2 ">
                   <i
                     className="fa fa-clock-o pr-[12.5px] text-azul1 text-[12.5px]"
                     aria-hidden="true"
@@ -59,7 +59,7 @@ const Header = (props) => {
                 </li>
               </ul>
             </div>
-            <div className="col-span-2 md:col-span-12">
+            <div className="col-span-1 md:col-span-12">
               <div className="text-right md:text-center md:mb-[15px] p-1">
                 <Link
                   onClick={ClickHandler}
@@ -139,7 +139,7 @@ const Header = (props) => {
                   <li>
                     <Link
                       onClick={ClickHandler}
-                      href="/servicio-esp/Contabilidad-Externa"
+                      href="/servicio-esp/Contabilidad-Integral"
                       className="text-[15px] lg:text-[14px] inline-block py-[5px] uppercase text-[#333] group relative overflow-hidden font-bold transition-all hover:text-verde1 
                                         "
                     >

@@ -8,8 +8,8 @@ import cimg6 from "/public/images/studies/6.jpg";
 const Cases = [
   {
     Id: "1",
-    cTitle: "Contabilidad Externa",
-    slug: "Contabilidad-Externa",
+    cTitle: "Contabilidad Integral",
+    slug: "Contabilidad-Integral",
     sub: "Departamento de",
     cImg: cimg1,
     filterName: "all FamilyMatters Business Injury",

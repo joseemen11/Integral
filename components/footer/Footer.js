@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 // import Logo from "/public/images/logo.png";
 import Practices from "../../api/Practices";
-import Logo from '/public/images/logo-ip.jpg'
+import Logo from '/public/images/integralPro/logos/logo_vertical.png'
 import Image from "next/image";
 
 const SubmitHandler = (e) => {
@@ -141,7 +141,7 @@ const Footer = (props) => {
                     <Link
                       className="text-white hover:text-verde1 transition-all"
                       onClick={ClickHandler}
-                     href="/servicio-esp/Contabilidad-Externa"
+                     href="/servicio-esp/Contabilidad-Integral"
                     >
                       Contabilidad
                     </Link>
@@ -196,7 +196,7 @@ const Footer = (props) => {
                   La Paz, Bolivia
                 </li>
                 <li className="relative mb-[8px] block text-white">
-                  Teléfono: 70642519 - 70161196
+                  Teléfono: 76721382
                 </li>
                 <li className="relative mb-[8px] block text-white">
                   Email: integralprosrl@gmail.com

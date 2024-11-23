@@ -92,7 +92,7 @@ const Hero = () => {
                       col:text-[25px] col:leading-[35px] font-normal my-[33px] md:my-[20px]"
                     >
                       <span>
-                        Contabilidad Externa{" "}
+                        Contabilidad Integral{" "}
                       </span>
                       {/* <br /> <span> y Gestión Empresarial.</span> */}
                     </h2>
@@ -109,7 +109,7 @@ const Hero = () => {
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
-                          href="/servicio-esp/Contabilidad-Externa"
+                          href="/servicio-esp/Contabilidad-Integral"
                           className="bg-azul1 relative cursor-pointer text-[16px]
                              font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
                              transition ease-in-out duration-300 hover:bg-verde1

@@ -27,7 +27,7 @@ const menus = [
             {
                 id: 61,
                 title: 'Contabilidad',
-                link: '/servicio-esp/Contabilidad-Externa'
+                link: '/servicio-esp/Contabilidad-Integral'
             },
             {
                 id: 62,

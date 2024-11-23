@@ -26,7 +26,7 @@ const HomePage = () => {
             <Testimonial />
             <ConsultingArea />
             <Attorney />
-            <FunFact />
+            {/* <FunFact /> */}
             {/* <BlogSection /> */}
             <Newsletter />
             <Footer />

@@ -72,7 +72,7 @@ const Attorneys = [
     title: "Directora De Operaciones (COO)",
     years: "3",
     email: "daniela@mail.com",
-    telefóno: "70642519",
+    // telefóno: "70642519",
     description1:
       "Actualmente, es la Directora Operaciones (COO) y Socia Fundadora de INTEGRALPRO S.R.L., Consultores en Contabilidad, Auditoría y Gestión Empresarial. Es la encargada de supervisar y optimizar las operaciones diarias de la empresa. Sus funciones incluyen la implementación de estrategias operativas, la mejora continua de procesos y la coordinación entre diferentes departamentos para asegurar la eficiencia y productividad.",
     description2:

@@ -24,8 +24,8 @@ const Contactpage = () => {
                       Dirección
                     </h2>
                     <p className="text-[#666] text-[14px] leading-[15px]">
-                    El Prado - Av 16 de Julio Edificio Ex Hotel Plaza, Piso 4
-                    OF. 417
+                      El Prado - Av 16 de Julio Edificio Ex Hotel Plaza, Piso 4
+                      OF. 417
                     </p>
                   </div>
                 </div>
@@ -62,7 +62,14 @@ const Contactpage = () => {
                       Teléfono
                     </h2>
                     <p className="text-[#666] text-[16px] leading-[22px]">
-                    76721382
+                      <a
+                        href="https://wa.me/76721382"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        76721382
+                      </a>
                     </p>
                     {/* <p className="text-[#666] text-[16px] leading-[22px]">+1 800 123 654 987</p> */}
                   </div>

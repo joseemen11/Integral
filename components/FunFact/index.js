@@ -1,26 +1,30 @@
 import React from "react";
-
+import atimg1 from "/public/images/integralPro/empresas/CAUB.jpg";
+import atimg2 from "/public/images/integralPro/empresas/GAMLP.png";
+import atimg3 from "/public/images/integralPro/empresas/SEPREC.jpg";
+import atimg4 from "/public/images/integralPro/empresas/Sin.jpeg";
+import Image from "next/image";
 const FunFact = (props) => {
   const funFact = [
     {
       title: "Cert",
-      subTitle: "Certificado 1",
-      Symbol: "%",
+      subTitle: "Certificación 1",
+      img: atimg1,
     },
     {
       title: "Cert",
-      subTitle: "Certificado 2",
-      Symbol: "+",
+      subTitle: "Certificación 2",
+      img: atimg2,
     },
     {
       title: "Cert",
-      subTitle: "Certificado 3",
-      Symbol: "+",
+      subTitle: "Certificación 3",
+      img: atimg3,
     },
     {
       title: "Cert",
-      subTitle: "Certificado 4",
-      Symbol: "-",
+      subTitle: "Certificación 4",
+      img: atimg4,
     },
   ];
 
@@ -32,27 +36,25 @@ const FunFact = (props) => {
       }}
     >
       <div className="wraper">
-        <div className="grid grid-cols-12 gap-3">
-          <div className="col-span-6 md:col-span-6 sm:col-span-12">
-            <div className="counter-grids relative overflow-hidden">
-              {funFact.map((funfact, fitem) => (
-                <div
-                  className="w-[48%] float-left pt-[40px] pb-[40px] mr-[5px] bg-navbar/60 mb-[5px] text-center sm:flex-none col:w-full"
-                  key={fitem}
-                >
-                  <div>
-                    <h2 className=" text-[50px] sm:text-[30px] font-bold text-white ">
-                      {funfact.title}
-                      {funfact.Symbol}
-                    </h2>
-                  </div>
-                  <p className=" text-[18px] fonts-normal pt-[10px] text-white">
-                    {funfact.subTitle}
-                  </p>
-                </div>
-              ))}
+        <div className="grid grid-cols-2 gap-4 md:gap-6">
+          {funFact.map((funfact, index) => (
+            <div
+              key={index}
+              className="bg-azul1/60 rounded overflow-hidden shadow-md flex flex-col items-center justify-center"
+            >
+              <div className="w-full aspect-square relative">
+                <Image
+                  src={funfact.img}
+                  alt={funfact.subTitle}
+                  className="object-cover"
+                  fill
+                />
+              </div>
+              <p className="text-white text-center font-medium mt-2">
+                {funfact.subTitle}
+              </p>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

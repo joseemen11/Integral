@@ -26,7 +26,7 @@ const ConsultingArea = (props) => {
                 </h2>
               </div>
               <span className="text-[18px] text-white">
-                Contáctanos al 70642519  o llena el formulario.
+                Contáctanos al 76721382  o llena el formulario.
               </span>
               {/* <p className="mt-[30px] text-[#ddd] leading-[30px] text-[16px]">
                 It is a long established fact that a reader will be distracted
