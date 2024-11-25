@@ -116,6 +116,8 @@ const Attorney = (props) => {
                           href={`${attorney?.facebook}`}
                           as={``}
                           className="text-navbar transition-all hover:text-azul1"
+                          target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <i className="fa fa-facebook" aria-hidden="true"></i>
                         </Link>
@@ -128,6 +130,8 @@ const Attorney = (props) => {
                           href={`${attorney?.instagram}`}
                           as={``}
                           className="text-navbar transition-all hover:text-azul1"
+                          target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <i className="fa fa-instagram" aria-hidden="true"></i>
                         </Link>
@@ -140,6 +144,8 @@ const Attorney = (props) => {
                           href={`${attorney?.linkdin}`}
                           as={``}
                           className="text-navbar transition-all hover:text-azul1"
+                          target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <i className="fa fa-linkedin" aria-hidden="true"></i>
                         </Link>
