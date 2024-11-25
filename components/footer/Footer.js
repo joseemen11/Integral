@@ -141,7 +141,7 @@ const Footer = (props) => {
                     <Link
                       className="text-white hover:text-verde1 transition-all"
                       onClick={ClickHandler}
-                     href="/servicio-esp/Contabilidad-Integral"
+                     href="/servicio/Contabilidad-Integral"
                     >
                       Contabilidad
                     </Link>
@@ -151,7 +151,7 @@ const Footer = (props) => {
                     <Link
                       className="text-white hover:text-verde1 transition-all"
                       onClick={ClickHandler}
-                      href="/servicio-esp/Auditoría-Especializada"
+                      href="/servicio/Auditoría-Especializada"
                     >
                       Auditoría
                     </Link>
@@ -161,7 +161,7 @@ const Footer = (props) => {
                     <Link
                       className="text-white hover:text-verde1 transition-all"
                       onClick={ClickHandler}
-                     href="/servicio-esp/Gestión-Empresarial"
+                     href="/servicio/Gestión-Empresarial"
                     >
                       Gestión Empresarial
                     </Link>
@@ -171,7 +171,7 @@ const Footer = (props) => {
                     <Link
                       className="text-white hover:text-verde1 transition-all"
                       onClick={ClickHandler}
-                      href="/servicio-esp/Capacitación-Individual-y-Colectiva"
+                      href="/servicio/Capacitación-Individual-y-Colectiva"
                     >
                       Capacitación
                     </Link>

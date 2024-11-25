@@ -9,13 +9,14 @@ import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Pricing from '../../components/Pricing/Pricing';
 import CaseStudies from '../../components/CaseStudies/CaseStudies';
+import  img  from  '../../public/images/integralPro/portada/servicios.jpg'
 
 const PracticePage =() => {
 
     return(
         <Fragment>
             <Navbar />
-            <PageTitle pageTitle={'Servicios'} pagesub={'Servicios'}/> 
+            <PageTitle pageTitle={'Servicios'} pagesub={'Servicios'} img={img}/> 
             <Features />
             {/* <Practice3 /> */}
             <CaseStudies/>

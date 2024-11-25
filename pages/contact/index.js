@@ -4,7 +4,7 @@ import PageTitle from '../../components/pagetitle/PageTitle';
 import Footer from '../../components/footer/Footer'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Contactpage from '../../components/Contactpage/Contactpage';
-const img = '/images/integralPro/contactanos/contactanos.jpg'
+import  img  from  '../../public/images/integralPro/portada/contacto.jpg'
 
 
 const ContactPage =() => {

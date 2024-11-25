@@ -74,36 +74,14 @@ const AttorneysSinglePage = (props) => {
                           Contabilidad, Auditoría, Gestión Empresarial,
                           Capacitación
                         </li>
-                        {/* <li className="text-[16px] text-[#666] mt-[15px] md:mt-[12px]">
-                          <span className="text-[#666] text-[18px] font-bold ">
-                            Experiencia:{" "}
-                          </span>
-                          {AttorneyDetails?.years} años
-                        </li> */}
-                        {/* <li className="text-[16px] text-[#666] mt-[15px] md:mt-[12px]">
-                          <span className="text-[#666] text-[18px] font-bold ">
-                            Address:{" "}
-                          </span>
-                          Nayra Park, 365 B Grand Ave, Los Angeles, CA 10872
-                        </li> */}
-                        {/* <li className="text-[16px] text-[#666] mt-[15px] md:mt-[12px]">
-                          <span className="text-[#666] text-[18px] font-bold ">
-                            Teléfono:{" "}
-                          </span>
-                          {AttorneyDetails?.telefóno}
-                        </li> */}
+                        
                         <li className="text-[16px] text-[#666] mt-[15px] md:mt-[12px]">
                           <span className="text-[#666] text-[18px] font-bold ">
                             Redes Sociales:{" "}
                           </span>
                           {AttorneyDetails?.email}
                         </li>
-                        {/* <li className="text-[16px] text-[#666] mt-[15px] md:mt-[12px]">
-                          <span className="text-[#666] text-[18px] font-bold ">
-                            Fax:{" "}
-                          </span>
-                          6985231456
-                        </li> */}
+                    
                       </ul>
                       <ul className="overflow-hidden mt-[22px] pb-[36px]">
                         {AttorneyDetails?.facebook ? (
@@ -111,6 +89,8 @@ const AttorneysSinglePage = (props) => {
                             <Link
                               href={`${AttorneyDetails?.facebook}`}
                               className="block text-[#333] border bg-transparent border-[#ddd] transition-all ease-in-out group-hover:border-transparent group-hover:bg-[#666] group-hover:text-white"
+                               target="_blank"
+                    rel="noopener noreferrer"
                             >
                               <i className="fa fa-facebook"></i>
                             </Link>
@@ -121,6 +101,8 @@ const AttorneysSinglePage = (props) => {
                             <Link
                               href={`${AttorneyDetails?.instagram}`}
                               className="block text-[#333] border bg-transparent border-[#ddd] transition-all ease-in-out group-hover:border-transparent group-hover:bg-[#666] group-hover:text-white"
+                             target="_blank"
+                    rel="noopener noreferrer"
                             >
                               <i className="fa fa-instagram"></i>
                             </Link>
@@ -131,7 +113,9 @@ const AttorneysSinglePage = (props) => {
                             <Link
                               href={`${AttorneyDetails?.linkdin}`}
                               className="block text-[#333] border bg-transparent border-[#ddd] transition-all ease-in-out group-hover:border-transparent group-hover:bg-[#666] group-hover:text-white"
-                            >
+                             target="_blank"
+                    rel="noopener noreferrer"
+                              >
                               <i className="fa fa-linkedin"></i>
                             </Link>
                           </li>

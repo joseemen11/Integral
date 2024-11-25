@@ -5,12 +5,13 @@ import Attorney from '../../components/attorneys';
 import Newsletter from '../../components/Newsletter/Newsletter';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar'
+import  img  from  '../../public/images/integralPro/equipo/1.jpg'
 
 const AttorneyPage =() => {
     return(
         <Fragment>
             <Navbar />
-            <PageTitle pageTitle={'Profesionales'} pagesub={'Profesionales'}/> 
+            <PageTitle pageTitle={'Profesionales'} pagesub={'Profesionales'} img={img}/> 
             <Attorney/>
             <Newsletter />
             <Footer/>

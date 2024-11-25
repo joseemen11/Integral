@@ -55,8 +55,8 @@ const CaseStudies = ({ title = 'Nuestros Servicios' } ) => {
                     >
                       <Link
                         onClick={ClickHandler}
-                        href="/servicio-esp/[slug]"
-                        as={`/servicio-esp/${cases.slug}`}
+                        href="/servicio/[slug]"
+                        as={`/servicio/${cases.slug}`}
                         className="text-white transition ease-in-out duration-300 hover:text-verde1"
                       >
                         {cases.cTitle}

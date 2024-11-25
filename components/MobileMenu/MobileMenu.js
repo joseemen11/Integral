@@ -27,22 +27,22 @@ const menus = [
             {
                 id: 61,
                 title: 'Contabilidad',
-                link: '/servicio-esp/Contabilidad-Integral'
+                link: '/servicio/Contabilidad-Integral'
             },
             {
                 id: 62,
                 title: 'Auditoría',
-                link: '/servicio-esp/Auditoría-Especializada'
+                link: '/servicio/Auditoría-Especializada'
             },
             {
                 id: 63,
                 title: 'Gestión Empresarial',
-                link: '/servicio-esp/Gestión-Empresarial'
+                link: '/servicio/Gestión-Empresarial'
             },
             {
                 id: 64,
                 title: 'Capacitación',
-                link: '/servicio-esp/Capacitación-Individual-y-Colectiva'
+                link: '/servicio/Capacitación-Individual-y-Colectiva'
             },
         ]
     },

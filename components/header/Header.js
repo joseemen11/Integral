@@ -60,7 +60,7 @@ const Header = (props) => {
               </ul>
             </div>
             <div className="col-span-1 md:col-span-12">
-              <div className="text-right md:text-center md:mb-[15px] p-1">
+              <div className="text-right md:text-center md:mb-[15px] mr-5 p-1">
                 <Link
                   onClick={ClickHandler}
                   href="/contact"
@@ -139,7 +139,7 @@ const Header = (props) => {
                   <li>
                     <Link
                       onClick={ClickHandler}
-                      href="/servicio-esp/Contabilidad-Integral"
+                      href="/servicio/Contabilidad-Integral"
                       className="text-[15px] lg:text-[14px] inline-block py-[5px] uppercase text-[#333] group relative overflow-hidden font-bold transition-all hover:text-verde1 
                                         "
                     >
@@ -149,7 +149,7 @@ const Header = (props) => {
                   <li>
                     <Link
                       onClick={ClickHandler}
-                      href="/servicio-esp/Auditoría-Especializada"
+                      href="/servicio/Auditoría-Especializada"
                       className="text-[15px] lg:text-[14px] inline-block py-[5px] uppercase text-[#333] group relative overflow-hidden font-bold transition-all hover:text-verde1 
                                         "
                     >
@@ -159,7 +159,7 @@ const Header = (props) => {
                   <li>
                     <Link
                       onClick={ClickHandler}
-                      href="/servicio-esp/Gestión-Empresarial"
+                      href="/servicio/Gestión-Empresarial"
                       className="text-[15px] lg:text-[14px] inline-block py-[5px] uppercase text-[#333] group relative overflow-hidden font-bold transition-all hover:text-verde1 
                                         "
                     >
@@ -169,7 +169,7 @@ const Header = (props) => {
                   <li>
                     <Link
                       onClick={ClickHandler}
-                      href="/servicio-esp/Capacitación-Individual-y-Colectiva"
+                      href="/servicio/Capacitación-Individual-y-Colectiva"
                       className="text-[15px] lg:text-[14px] inline-block py-[5px] uppercase text-[#333] group relative overflow-hidden font-bold transition-all hover:text-verde1 
                                         "
                     >

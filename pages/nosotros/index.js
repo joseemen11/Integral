@@ -12,7 +12,8 @@ import Newsletter from '../../components/Newsletter/Newsletter';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Navbar from '../../components/Navbar/Navbar';
-const img = '/images/integralPro/contactanos/contactanos.jpg'
+// const img = '../images/integralPro/contactanos/contactanos.jpg'
+import  img  from  '../../public/images/integralPro/portada/servici.jpg'
 
 const AboutPage =() => {
     return(

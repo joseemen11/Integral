@@ -109,7 +109,7 @@ const Hero = () => {
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
-                          href="/servicio-esp/Contabilidad-Integral"
+                          href="/servicio/Contabilidad-Integral"
                           className="bg-azul1 relative cursor-pointer text-[16px]
                              font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
                              transition ease-in-out duration-300 hover:bg-verde1
@@ -160,7 +160,7 @@ const Hero = () => {
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
-                          href="/servicio-esp/Auditoría-Especializada"
+                          href="/servicio/Auditoría-Especializada"
                           className="bg-azul1 relative cursor-pointer text-[16px]
                              font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
                              transition ease-in-out duration-300 hover:bg-verde1
@@ -211,7 +211,7 @@ const Hero = () => {
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
-                          href="/servicio-esp/Gestión-Empresarial"
+                          href="/servicio/Gestión-Empresarial"
                           className="bg-azul1 relative cursor-pointer text-[16px]
                              font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
                              transition ease-in-out duration-300 hover:bg-verde1
@@ -262,7 +262,7 @@ const Hero = () => {
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
-                          href="/servicio-esp/Capacitación-Individual-y-Colectiva"
+                          href="/servicio/Capacitación-Individual-y-Colectiva"
                           className="bg-azul1 relative cursor-pointer text-[16px]
                              font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
                              transition ease-in-out duration-300 hover:bg-verde1

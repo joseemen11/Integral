@@ -2,7 +2,7 @@ import React from 'react'
 import Link from "next/link";
 
 const PageTitle = (props) => {
-    console.log(props.img);
+    // console.log(props.img);
     
     return (
         <section className="page-title min-h-[550px] sm:min-h-[300px] relative flex justify-start  items-center
