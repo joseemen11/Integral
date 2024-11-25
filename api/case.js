@@ -891,6 +891,212 @@ const Cases = [
           },
         ],
       },
+      {
+        contentTitle: "AUDITORÍA OPERATIVA",
+        contentSubtitle:
+          "La Auditoría Operativa es un proceso de evaluación integral que va más allá de los aspectos financieros, enfocándose en la eficiencia, efectividad y economía de las operaciones de una empresa. El objetivo es identificar áreas de mejora en los procesos, sistemas y recursos, asegurando que las operaciones se alineen con los objetivos estratégicos de la organización.",
+        content: [
+          {
+            name: "BENEFICIOS DEL SERVICIO",
+            points: [
+              {
+                title: "Optimización de Procesos:",
+                subtitle:
+                  "Detecta ineficiencias en los procesos internos, sugiriendo mejoras para aumentar la productividad y reducir costos.",
+              },
+              {
+                title: "Mejor Toma de Decisiones:",
+                subtitle:
+                  "Proporciona información objetiva y precisa para ayudar a la gerencia a tomar decisiones informadas sobre la gestión de recursos.",
+              },
+              {
+                title: "Alineación Estratégica:",
+                subtitle:
+                  "Garantiza que las actividades operativas se ejecuten de manera que apoyen los objetivos estratégicos de la empresa.",
+              },
+              {
+                title: "Identificación de Riesgos Operacionales:",
+                subtitle:
+                  "Detecta posibles riesgos operativos que puedan afectar la sostenibilidad y eficiencia del negocio.",
+              },
+            ],
+          },
+          {
+            name: "ENTREGABLES",
+            points: [
+              {
+                title: "Informe de Auditoría Operativa:",
+                subtitle:
+                  "Documento detallado que presenta los hallazgos de la auditoría, evaluando el desempeño de las operaciones y proponiendo soluciones prácticas para mejorar la gestión.",
+              },
+              {
+                title: "Informe de Eficiencia y Efectividad:",
+                subtitle:
+                  "Evaluación de la eficiencia de los recursos utilizados y la efectividad en el logro de los objetivos empresariales.",
+              },
+              {
+                title: "Recomendaciones de Mejora:",
+                subtitle:
+                  "Lista de sugerencias específicas para optimizar los procesos, reducir costos y mejorar la calidad del servicio o producto.",
+              },
+              {
+                title: "Informe de Seguimiento:",
+                subtitle:
+                  "Opcional, para evaluar la implementación de las recomendaciones en un plazo definido tras la auditoría inicial.",
+              },
+            ],
+          },
+          {
+            name: "HONORARIOS PROFESIONALES",
+            points: [
+              {
+                title: "Costo del Servicio:",
+                subtitle:
+                  "El costo del servicio se ajusta según el tamaño y complejidad de las operaciones de la empresa, y se determina tras una evaluación inicial sin costo.",
+              },
+            ],
+          },
+          {
+            name: "BONO ADICIONAL",
+            points: [
+              {
+                title: "Asesoría de seguimiento:",
+                subtitle:
+                  "Asesoría de seguimiento sin costo durante el primer mes tras la entrega del informe para aclarar dudas y ayudar en la implementación de las recomendaciones.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        contentTitle: "AUDITORÍA MÉDICA",
+        contentSubtitle:
+          "La Auditoría Médica es una evaluación sistemática de la calidad de la atención médica, enfocada en los componentes de estructura, proceso y resultados, analizamos cómo se gestionan los recursos médicos, la efectividad de los procedimientos clínicos y los resultados obtenidos, para garantizar la excelencia en la atención de salud.",
+        content: [
+          {
+            name: "BENEFICIOS DEL SERVICIO",
+            points: [
+              {
+                title: "Mejora en la Calidad Asistencial:",
+                subtitle:
+                  "Identificación de áreas de mejora para garantizar la eficacia y eficiencia en la atención médica.",
+              },
+              {
+                title: "Cumplimiento Normativo:",
+                subtitle:
+                  "Asegura que las instituciones cumplan con estándares locales e internacionales de calidad en salud.",
+              },
+              {
+                title: "Optimización de Recursos:",
+                subtitle:
+                  "Evalúa el uso de recursos para maximizar la eficiencia sin comprometer la calidad.",
+              },
+              {
+                title: "Reducción de Riesgos:",
+                subtitle:
+                  "Identificación y mitigación de riesgos en la gestión de atención médica, asegurando la seguridad del paciente.",
+              },
+            ],
+          },
+          {
+            name: "ENTREGABLES",
+            points: [
+              {
+                title: "Informe de Auditoría Médica:",
+                subtitle:
+                  "Documento que presenta los hallazgos, conclusiones y recomendaciones para mejorar la calidad asistencial.",
+              },
+              {
+                title: "Análisis de Estructura y Procesos:",
+                subtitle:
+                  "Evaluación de recursos, procedimientos y prácticas para asegurar su efectividad y eficiencia.",
+              },
+            ],
+          },
+          {
+            name: "HONORARIOS PROFESIONALES",
+            points: [
+              {
+                title: "Costo del Servicio:",
+                subtitle:
+                  "El costo se ajusta en función del alcance y tamaño del servicio médico a auditar, y se determina tras una consulta inicial gratuita para definir las necesidades.",
+              },
+            ],
+          },
+          {
+            name: "BONO ADICIONAL",
+            points: [
+              {
+                title: "Asesoría de seguimiento:",
+                subtitle:
+                  "Asesoría de seguimiento sin costo durante el primer mes tras la entrega del informe para aclarar dudas y ayudar en la implementación de las recomendaciones.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        contentTitle: "AUDITORÍA DE CONSTRUCCIONES",
+        contentSubtitle:
+          "La Auditoría de Construcciones es un servicio que evalúa la calidad de los materiales ejecutados, cumplimiento y seguridad de los proyectos de construcción. Se enfoca en asegurar que cada proyecto se haya ejecutado conforme a los planos, especificaciones técnicas y normativas vigentes, opinando sobre la ejecución de los recursos destinados para tal proyecto.",
+        content: [
+          {
+            name: "BENEFICIOS DEL SERVICIO",
+            points: [
+              {
+                title: "Cumplimiento Normativo:",
+                subtitle:
+                  "Verifica que el proyecto haya cumplido con las leyes y regulaciones de construcción y las cláusulas contractuales respectivas.",
+              },
+              {
+                title: "Control de Calidad:",
+                subtitle:
+                  "Verifica que los materiales y técnicas de construcción hayan cumplido con estándares de calidad.",
+              },
+              {
+                title: "Análisis de Recursos Ejecutados:",
+                subtitle:
+                  "Identifica la ejecución de los recursos asignados para el proyecto a ser Auditado.",
+              },
+            ],
+          },
+          {
+            name: "ENTREGABLES",
+            points: [
+              {
+                title: "Informe de Auditoría:",
+                subtitle:
+                  "Incluye hallazgos, evaluación del cumplimiento y recomendaciones.",
+              },
+              {
+                title: "Análisis de Cronograma y Costos:",
+                subtitle:
+                  "Evalúa las desviaciones de los plazos y los costos incurridos en el proyecto Auditado.",
+              },
+            ],
+          },
+          {
+            name: "HONORARIOS PROFESIONALES",
+            points: [
+              {
+                title: "Costo del Servicio:",
+                subtitle:
+                  "El costo del servicio depende de la escala y complejidad del proyecto de construcción, ajustándose tras una evaluación inicial.",
+              },
+            ],
+          },
+          {
+            name: "BONO ADICIONAL",
+            points: [
+              {
+                title: "Asesoría de seguimiento:",
+                subtitle:
+                  "Asesoría de seguimiento sin costo durante el primer mes tras la entrega del informe para aclarar dudas y ayudar en la implementación de las recomendaciones.",
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   {
@@ -1700,212 +1906,7 @@ const Cases = [
           },
         ],
       },
-      {
-        contentTitle: "AUDITORÍA OPERATIVA",
-        contentSubtitle:
-          "La Auditoría Operativa es un proceso de evaluación integral que va más allá de los aspectos financieros, enfocándose en la eficiencia, efectividad y economía de las operaciones de una empresa. El objetivo es identificar áreas de mejora en los procesos, sistemas y recursos, asegurando que las operaciones se alineen con los objetivos estratégicos de la organización.",
-        content: [
-          {
-            name: "BENEFICIOS DEL SERVICIO",
-            points: [
-              {
-                title: "Optimización de Procesos:",
-                subtitle:
-                  "Detecta ineficiencias en los procesos internos, sugiriendo mejoras para aumentar la productividad y reducir costos.",
-              },
-              {
-                title: "Mejor Toma de Decisiones:",
-                subtitle:
-                  "Proporciona información objetiva y precisa para ayudar a la gerencia a tomar decisiones informadas sobre la gestión de recursos.",
-              },
-              {
-                title: "Alineación Estratégica:",
-                subtitle:
-                  "Garantiza que las actividades operativas se ejecuten de manera que apoyen los objetivos estratégicos de la empresa.",
-              },
-              {
-                title: "Identificación de Riesgos Operacionales:",
-                subtitle:
-                  "Detecta posibles riesgos operativos que puedan afectar la sostenibilidad y eficiencia del negocio.",
-              },
-            ],
-          },
-          {
-            name: "ENTREGABLES",
-            points: [
-              {
-                title: "Informe de Auditoría Operativa:",
-                subtitle:
-                  "Documento detallado que presenta los hallazgos de la auditoría, evaluando el desempeño de las operaciones y proponiendo soluciones prácticas para mejorar la gestión.",
-              },
-              {
-                title: "Informe de Eficiencia y Efectividad:",
-                subtitle:
-                  "Evaluación de la eficiencia de los recursos utilizados y la efectividad en el logro de los objetivos empresariales.",
-              },
-              {
-                title: "Recomendaciones de Mejora:",
-                subtitle:
-                  "Lista de sugerencias específicas para optimizar los procesos, reducir costos y mejorar la calidad del servicio o producto.",
-              },
-              {
-                title: "Informe de Seguimiento:",
-                subtitle:
-                  "Opcional, para evaluar la implementación de las recomendaciones en un plazo definido tras la auditoría inicial.",
-              },
-            ],
-          },
-          {
-            name: "HONORARIOS PROFESIONALES",
-            points: [
-              {
-                title: "Costo del Servicio:",
-                subtitle:
-                  "El costo del servicio se ajusta según el tamaño y complejidad de las operaciones de la empresa, y se determina tras una evaluación inicial sin costo.",
-              },
-            ],
-          },
-          {
-            name: "BONO ADICIONAL",
-            points: [
-              {
-                title: "Asesoría de seguimiento:",
-                subtitle:
-                  "Asesoría de seguimiento sin costo durante el primer mes tras la entrega del informe para aclarar dudas y ayudar en la implementación de las recomendaciones.",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        contentTitle: "AUDITORÍA MÉDICA",
-        contentSubtitle:
-          "La Auditoría Médica es una evaluación sistemática de la calidad de la atención médica, enfocada en los componentes de estructura, proceso y resultados, analizamos cómo se gestionan los recursos médicos, la efectividad de los procedimientos clínicos y los resultados obtenidos, para garantizar la excelencia en la atención de salud.",
-        content: [
-          {
-            name: "BENEFICIOS DEL SERVICIO",
-            points: [
-              {
-                title: "Mejora en la Calidad Asistencial:",
-                subtitle:
-                  "Identificación de áreas de mejora para garantizar la eficacia y eficiencia en la atención médica.",
-              },
-              {
-                title: "Cumplimiento Normativo:",
-                subtitle:
-                  "Asegura que las instituciones cumplan con estándares locales e internacionales de calidad en salud.",
-              },
-              {
-                title: "Optimización de Recursos:",
-                subtitle:
-                  "Evalúa el uso de recursos para maximizar la eficiencia sin comprometer la calidad.",
-              },
-              {
-                title: "Reducción de Riesgos:",
-                subtitle:
-                  "Identificación y mitigación de riesgos en la gestión de atención médica, asegurando la seguridad del paciente.",
-              },
-            ],
-          },
-          {
-            name: "ENTREGABLES",
-            points: [
-              {
-                title: "Informe de Auditoría Médica:",
-                subtitle:
-                  "Documento que presenta los hallazgos, conclusiones y recomendaciones para mejorar la calidad asistencial.",
-              },
-              {
-                title: "Análisis de Estructura y Procesos:",
-                subtitle:
-                  "Evaluación de recursos, procedimientos y prácticas para asegurar su efectividad y eficiencia.",
-              },
-            ],
-          },
-          {
-            name: "HONORARIOS PROFESIONALES",
-            points: [
-              {
-                title: "Costo del Servicio:",
-                subtitle:
-                  "El costo se ajusta en función del alcance y tamaño del servicio médico a auditar, y se determina tras una consulta inicial gratuita para definir las necesidades.",
-              },
-            ],
-          },
-          {
-            name: "BONO ADICIONAL",
-            points: [
-              {
-                title: "Asesoría de seguimiento:",
-                subtitle:
-                  "Asesoría de seguimiento sin costo durante el primer mes tras la entrega del informe para aclarar dudas y ayudar en la implementación de las recomendaciones.",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        contentTitle: "AUDITORÍA DE CONSTRUCCIONES",
-        contentSubtitle:
-          "La Auditoría de Construcciones es un servicio que evalúa la calidad de los materiales ejecutados, cumplimiento y seguridad de los proyectos de construcción. Se enfoca en asegurar que cada proyecto se haya ejecutado conforme a los planos, especificaciones técnicas y normativas vigentes, opinando sobre la ejecución de los recursos destinados para tal proyecto.",
-        content: [
-          {
-            name: "BENEFICIOS DEL SERVICIO",
-            points: [
-              {
-                title: "Cumplimiento Normativo:",
-                subtitle:
-                  "Verifica que el proyecto haya cumplido con las leyes y regulaciones de construcción y las cláusulas contractuales respectivas.",
-              },
-              {
-                title: "Control de Calidad:",
-                subtitle:
-                  "Verifica que los materiales y técnicas de construcción hayan cumplido con estándares de calidad.",
-              },
-              {
-                title: "Análisis de Recursos Ejecutados:",
-                subtitle:
-                  "Identifica la ejecución de los recursos asignados para el proyecto a ser Auditado.",
-              },
-            ],
-          },
-          {
-            name: "ENTREGABLES",
-            points: [
-              {
-                title: "Informe de Auditoría:",
-                subtitle:
-                  "Incluye hallazgos, evaluación del cumplimiento y recomendaciones.",
-              },
-              {
-                title: "Análisis de Cronograma y Costos:",
-                subtitle:
-                  "Evalúa las desviaciones de los plazos y los costos incurridos en el proyecto Auditado.",
-              },
-            ],
-          },
-          {
-            name: "HONORARIOS PROFESIONALES",
-            points: [
-              {
-                title: "Costo del Servicio:",
-                subtitle:
-                  "El costo del servicio depende de la escala y complejidad del proyecto de construcción, ajustándose tras una evaluación inicial.",
-              },
-            ],
-          },
-          {
-            name: "BONO ADICIONAL",
-            points: [
-              {
-                title: "Asesoría de seguimiento:",
-                subtitle:
-                  "Asesoría de seguimiento sin costo durante el primer mes tras la entrega del informe para aclarar dudas y ayudar en la implementación de las recomendaciones.",
-              },
-            ],
-          },
-        ],
-      },
+
     ],
   },
   {
