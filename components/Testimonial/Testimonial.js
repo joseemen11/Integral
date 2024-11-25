@@ -104,7 +104,7 @@ const Testimonial = (props) => {
                         <h4 className="text-[18px] font-semibold font-base-font">
                           {tesmnl.Title}
                         </h4>
-                        <span className="text-[16px] text-[#666]">
+                        <span className="text-[16px] text-[#666] text-justify">
                           {tesmnl.Sub}
                         </span>
                       </div>

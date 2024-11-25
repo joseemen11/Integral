@@ -157,10 +157,10 @@ const AttorneysSinglePage = (props) => {
                 {/* <h2 className="text-[30px] md:text-[25px] font-normal mb-[30px] text-[#282e3f]">
                   Descripción
                 </h2> */}
-                <p className="text-[#666] text-[16px] leading-[28px] mb-[20px]">
+                <p className="text-[#666] text-[16px] leading-[28px] mb-[20px] text-justify">
                   {AttorneyDetails?.description1}
                 </p>
-                <p className="text-[#666] text-[16px] leading-[28px] mb-[20px]">
+                <p className="text-[#666] text-[16px] leading-[28px] mb-[20px] text-justify">
                   {AttorneyDetails?.description2}
                 </p>
               </div>

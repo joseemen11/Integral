@@ -25,7 +25,7 @@ const Practice2 = () => {
               >
                 Misión
               </h3>
-              <p className="text-white text-[16px] font-normal">
+              <p className="text-white text-[16px] font-normal text-justify">
                 {
                   "INTEGRALPRO S.R.L. Consultores en Contabilidad, Auditoría y Gestión Empresarial. Es una empresa multidisciplinaria que se distingue por su compromiso con los más altos estándares de calidad, independencia e integridad. Nos especializamos en ofrecer una amplia gama de servicios profesionales de consultoría externa y asesoramiento, así como coordinar distintas soluciones para entidades del sector público y privado. Además, brindamos capacitación tanto a nivel grupal como individual, adaptada a las necesidades específicas de nuestros clientes."
                 }
@@ -40,7 +40,7 @@ const Practice2 = () => {
               >
                 Visión
               </h3>
-              <p className="text-white text-[16px] font-normal">
+              <p className="text-white text-[16px] font-normal text-justify">
                 {"Convertirnos en el referente líder en el ámbito de la consultoría multidisciplinaria, reconocidos por nuestra excelencia, innovación y compromiso con la calidad. Nos esforzamos por ser la primera opción para entidades del sector público y privado que buscan soluciones integrales y personalizadas para sus desafíos más complejos. A través de nuestro enfoque centrado en el cliente y nuestro equipo altamente capacitado, aspiramos a impulsar el crecimiento y el éxito de nuestros clientes, contribuyendo así al desarrollo sostenible de INTEGRALPRO S.R.L."}
               </p>
             </div>

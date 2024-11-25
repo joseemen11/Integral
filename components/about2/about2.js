@@ -21,12 +21,12 @@ const About2 = (props) => {
                   className="text-[36px] md:text-[26px] font-medium text-[#333] pb-[20px] relative 
                         before:absolute before:content-[''] before:left-[-68px] 
                         before:top-[30px] before:transform before:-translate-y-1/2 
-                        before:w-[60px] before:h-[1px] before:bg-navbar md:before:hidden"
+                        before:w-[60px] before:h-[1px] before:bg-navbar md:before:hidden text-justify"
                 >
                   ¿Quiénes somos?
                 </h2>
               </div>
-              <p className="text-[#666] text-[15px] leading-[28px] mb-[30px]">
+              <p className="text-[#666] text-[15px] leading-[28px] mb-[30px] text-justify">
                 {/* INTEGRALPRO S.R.L. Consultores en Contabilidad, Auditoría y
                 Gestión Empresarial. es una empresa del sector privado
                 constituida en estricto cumplimiento de las Leyes y Normas del
@@ -44,7 +44,7 @@ const About2 = (props) => {
                 cumpliendo con las normativas del Estado Plurinacional de
                 Bolivia.
               </p>
-              <p className="text-[#666] text-[15px] leading-[28px] mb-[30px]">
+              <p className="text-[#666] text-[15px] leading-[28px] mb-[30px] text-justify">
                 {" "}
                 {/* Cuya representación legal se encuentra acreditada mediante el
                 Testimonio de Poder No. 287/2020 suscrito ante notaría de fe
