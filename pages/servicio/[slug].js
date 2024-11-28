@@ -33,7 +33,7 @@ const CaseSinglePage = (props) => {
       <Navbar />
       <PageTitle
         pageTitle={caseDetails?.cTitle}
-        pagesub={caseDetails?.slug}
+        pagesub={caseDetails?.cTitle}
         img={caseDetails?.cImg}
       />
       <div className="pt-[50px] md:py-[30px]">

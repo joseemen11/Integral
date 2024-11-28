@@ -1,7 +1,7 @@
 import cimg1 from "/public/images/integralPro/departamentos/auditoria.jpg";
 import cimg2 from "/public/images/integralPro/departamentos/contabilidad.jpg";
 import cimg3 from "/public/images/integralPro/departamentos/gestion.jpg";
-import cimg4 from "/public/images/integralPro/services/img-4.jpg";
+import cimg4 from "/public/images/integralPro/departamentos/capacitacion1.jpg";
 import cimg5 from "/public/images/studies/5.jpg";
 import cimg6 from "/public/images/studies/6.jpg";
 

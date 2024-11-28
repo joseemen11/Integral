@@ -62,10 +62,10 @@ module.exports = {
       'col': {'max': '567px'},
       // => @media (max-width: 320px) { ... }
     },
-    fontFamily: {
-      'base-font': ['Open Sans', 'sans-serif'],
-      'heading-font': ['Playfair Display', 'serif'],
-    },
+   fontFamily: {
+        'base-font': ['Montserrat', 'sans-serif'], // Cambia a Montserrat
+        'heading-font': ['Montserrat', 'sans-serif'], // Opcional: Usa Montserrat también para encabezados
+      },
   },
   plugins: [],
   important: true,

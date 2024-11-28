@@ -38,7 +38,7 @@ const Newsletter = (props) => {
             {/* Adjusted columns */}
             <div className="">
               <h3 className="text-[30px] sm:text-[22px] font-medium mb-[40px] sm:mb-[30px] text-azul1 text-center">
-                Imágenes
+                Equipo de Trabajo
               </h3>
               <div className="team-slider relative">
                 <Slider {...settings} ref={sliderRef}>

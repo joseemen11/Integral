@@ -54,6 +54,7 @@ $flaticon-map: (
     "play-1": "\f11f",
     "loupe": "\f120",
     "user": "\f121",
+    "tiktok" "\f123"
 );
 
 .flaticon-verified:before {
@@ -100,6 +101,9 @@ $flaticon-map: (
 }
 .flaticon-facebook:before {
     content: map-get($flaticon-map, "facebook");
+}
+.flaticon-tiktok:before {
+    content: map-get($flaticon-map, "tiktok");
 }
 .flaticon-dribbble:before {
     content: map-get($flaticon-map, "dribbble");

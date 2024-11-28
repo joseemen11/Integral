@@ -63,9 +63,7 @@ const Hero = () => {
                              font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
                              transition ease-in-out duration-300 hover:bg-verde1
                             col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
-                            before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
-                             before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 
-                             before:transition-all hover:before:left-[-95px] md:before:hidden"
+                            "
                         >
                           Descubra más
                         </Link>
@@ -91,32 +89,26 @@ const Hero = () => {
                       className="text-white text-[60px] leading-[90px] lg:text-[42px] lg:leading-[56px] 
                       col:text-[25px] col:leading-[35px] font-normal my-[33px] md:my-[20px]"
                     >
-                      <span>
-                        Contabilidad Integral{" "}
-                      </span>
+                      <span>Contabilidad Integral </span>
                       {/* <br /> <span> y Gestión Empresarial.</span> */}
                     </h2>
                     <div className="flex gap-2 sm:grid sm:hidden">
                       <p className="text-white text-[20px] font-light col:text-[18px]">
-                      Tu negocio en orden,
+                        Tu negocio en orden,
                       </p>
                       <p className="text-white text-[20px] font-light col:text-[18px]">
-                      tus finanzas bajo control.
+                        tus finanzas bajo control.
                       </p>
-                    
                     </div>
-                    <div className="btns mt-5">
+                    <div className="btns mt-5 flex justify-center">
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
                           href="/servicio/Contabilidad-Integral"
                           className="bg-azul1 relative cursor-pointer text-[16px]
-                             font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
-                             transition ease-in-out duration-300 hover:bg-verde1
-                            col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
-                            before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
-                             before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 
-                             before:transition-all hover:before:left-[-95px] md:before:hidden"
+        font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
+        transition ease-in-out duration-300 hover:bg-verde1
+        col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px]"
                         >
                           Descubra más
                         </Link>
@@ -142,32 +134,26 @@ const Hero = () => {
                       className="text-white text-[60px] leading-[90px] lg:text-[42px] lg:leading-[56px] 
                       col:text-[25px] col:leading-[35px] font-normal my-[33px] md:my-[20px]"
                     >
-                      <span>
-                        Auditoría Especializada{" "}
-                      </span>
+                      <span>Auditoría Especializada </span>
                       {/* <br /> <span> y Gestión Empresarial.</span> */}
                     </h2>
                     <div className="flex gap-2 sm:grid sm:hidden">
                       <p className="text-white text-[20px] font-light col:text-[18px]">
-                      Transparencia y precisión 
+                        Transparencia y precisión
                       </p>
                       <p className="text-white text-[20px] font-light col:text-[18px]">
-                      para la confianza financiera.
+                        para la confianza financiera.
                       </p>
-                    
                     </div>
-                    <div className="btns mt-5">
+                    <div className="btns mt-5 flex justify-center">
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
-                          href="/servicio/Auditoría-Especializada"
+                          href="/servicio/Contabilidad-Integral"
                           className="bg-azul1 relative cursor-pointer text-[16px]
-                             font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
-                             transition ease-in-out duration-300 hover:bg-verde1
-                            col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
-                            before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
-                             before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 
-                             before:transition-all hover:before:left-[-95px] md:before:hidden"
+        font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
+        transition ease-in-out duration-300 hover:bg-verde1
+        col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px]"
                         >
                           Descubra más
                         </Link>
@@ -193,32 +179,26 @@ const Hero = () => {
                       className="text-white text-[60px] leading-[90px] lg:text-[42px] lg:leading-[56px] 
                       col:text-[25px] col:leading-[35px] font-normal my-[33px] md:my-[20px]"
                     >
-                      <span>
-                        Gestión Empresarial{" "}
-                      </span>
+                      <span>Gestión Empresarial </span>
                       {/* <br /> <span> y Gestión Empresarial.</span> */}
                     </h2>
                     <div className="flex gap-2 sm:grid sm:hidden">
                       <p className="text-white text-[20px] font-light col:text-[18px]">
-                      Estrategias claras,  
+                        Estrategias claras,
                       </p>
                       <p className="text-white text-[20px] font-light col:text-[18px]">
-                      resultados excepcionales.
+                        resultados excepcionales.
                       </p>
-                    
                     </div>
-                    <div className="btns mt-5">
+                    <div className="btns mt-5 flex justify-center">
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
-                          href="/servicio/Gestión-Empresarial"
+                          href="/servicio/Contabilidad-Integral"
                           className="bg-azul1 relative cursor-pointer text-[16px]
-                             font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
-                             transition ease-in-out duration-300 hover:bg-verde1
-                            col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
-                            before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
-                             before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 
-                             before:transition-all hover:before:left-[-95px] md:before:hidden"
+        font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
+        transition ease-in-out duration-300 hover:bg-verde1
+        col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px]"
                         >
                           Descubra más
                         </Link>
@@ -244,32 +224,26 @@ const Hero = () => {
                       className="text-white text-[60px] leading-[90px] lg:text-[42px] lg:leading-[56px] 
                       col:text-[25px] col:leading-[35px] font-normal my-[33px] md:my-[20px]"
                     >
-                      <span>
-                      Capacitación Individual y Colectiva{" "}
-                      </span>
+                      <span>Capacitación Individual y Colectiva </span>
                       {/* <br /> <span> y Gestión Empresarial.</span> */}
                     </h2>
                     <div className="flex gap-2 sm:grid sm:hidden">
                       <p className="text-white text-[20px] font-light col:text-[18px]">
-                      Aprende, crece 
+                        Aprende, crece
                       </p>
                       <p className="text-white text-[20px] font-light col:text-[18px]">
-                      y lidera con conocimiento.
+                        y lidera con conocimiento.
                       </p>
-                    
                     </div>
-                    <div className="btns mt-5">
+                    <div className="btns mt-5 flex justify-center">
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
-                          href="/servicio/Capacitación-Individual-y-Colectiva"
+                          href="/servicio/Contabilidad-Integral"
                           className="bg-azul1 relative cursor-pointer text-[16px]
-                             font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
-                             transition ease-in-out duration-300 hover:bg-verde1
-                            col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
-                            before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
-                             before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 
-                             before:transition-all hover:before:left-[-95px] md:before:hidden"
+        font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
+        transition ease-in-out duration-300 hover:bg-verde1
+        col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px]"
                         >
                           Descubra más
                         </Link>
@@ -280,7 +254,7 @@ const Hero = () => {
               </div>
             </div>
           </SwiperSlide>
-          
+
           {/* <SwiperSlide>
             <div
               className="slide-inner slide-bg-image h-[790px] lg:h-[500px] col:h-[450px]"
@@ -313,9 +287,7 @@ const Hero = () => {
                              font-semibold text-white px-[38px] py-[12px]  capitalize inline-block mt-[6px] 
                              transition ease-in-out duration-300 hover:bg-[#d4c291]
                             col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px] 
-                            before:absolute before:content-[''] before:w-[85px] before:h-[2px] before:left-[-60px]
-                             before:top-[50%]  before:bg-white before:transform before:translate-y-[-50%] 
-                             before:transition-all hover:before:left-[-95px] md:before:hidden"
+                            "
                         >
                           Contact us now
                         </Link>

@@ -133,7 +133,7 @@ const Header = (props) => {
                 >
                   {`Servicios`}
                   {"     "}
-                  <span className="ml-2 inline-block transform scale-x-130">{`▼`}</span>
+                  {/* <span className="ml-2 inline-block transform scale-x-130">{`▼`}</span> */}
                 </Link>
                 <ul className="absolute w-[240px]  left-0 top-[110%] p-[20px] z-[111]  bg-[#fff] shadow-[#3e419f17]  transition-all  opacity-0 invisible group-hover:opacity-100  group-hover:top-full group-hover:visible">
                   <li>
@@ -309,7 +309,7 @@ const Header = (props) => {
                 >
                   {`Profesionales`}
                   {"     "}
-                  <span className="ml-2 inline-block transform scale-x-130">{`▼`}</span>
+                  {/* <span className="ml-2 inline-block transform scale-x-130">{`▼`}</span> */}
                 </Link>
                 <ul className="absolute w-[240px]  left-0 top-[110%] p-[20px] z-[111]  bg-[#fff] shadow-[#3e419f17]  transition-all  opacity-0 invisible group-hover:opacity-100  group-hover:top-full group-hover:visible">
                   <li>

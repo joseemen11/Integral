@@ -1,9 +1,9 @@
-import atimg1 from "/public/images/integralPro/profiles/Andres_Uria.png";
-import atimg2 from "/public/images/integralPro/profiles/Daniela_Uria.jpg";
-import atimg3 from "/public/images/integralPro/profiles/Fernando_Uria.png";
-import atimg4 from "/public/images/integralPro/profiles/Martha_Palma.jpg";
-import atimg5 from "/public/images/integralPro/profiles/Shirley_Vera.jpg";
-import atimg6 from "/public/images/integralPro/profiles/Andrea_Tapia.jpg";
+import atimg1 from "/public/images/integralPro/profiles/ANDRESURIA.png";
+import atimg2 from "/public/images/integralPro/profiles/DANIELAURIA.png";
+import atimg3 from "/public/images/integralPro/profiles/FERNANDOURIA.png";
+import atimg4 from "/public/images/integralPro/profiles/MARTHAPALMA.png";
+import atimg5 from "/public/images/integralPro/profiles/SHIRLEYVERA.png";
+import atimg6 from "/public/images/integralPro/profiles/ANDREATAPIA.png";
 // // import atimg3 from '/public/images/integralPro/profiles/fernando uria.jpg'
 // import atimg4 from '/public/images/expert/4.jpg'
 // import atimg5 from '/public/images/expert/5.jpg'
@@ -63,6 +63,7 @@ const Attorneys = [
     ],
     facebook: "https://www.facebook.com/profile.php?id=100063030170218",
     instagram: "https://www.instagram.com/andres.uria/",
+    linkdin: "https://www.linkedin.com/in/andres-uría-951461252/",
   },
   {
     Id: "2",
@@ -71,7 +72,7 @@ const Attorneys = [
     slug: "Daniela-Uria",
     title: "Directora De Operaciones (COO)",
     years: "3",
-    email: "daniela@mail.com",
+    // email: "daniela@mail.com",
     // telefóno: "70642519",
     description1:
       "Actualmente, es la Directora Operaciones (COO) y Socia Fundadora de INTEGRALPRO S.R.L., Consultores en Contabilidad, Auditoría y Gestión Empresarial. Es la encargada de supervisar y optimizar las operaciones diarias de la empresa. Sus funciones incluyen la implementación de estrategias operativas, la mejora continua de procesos y la coordinación entre diferentes departamentos para asegurar la eficiencia y productividad.",

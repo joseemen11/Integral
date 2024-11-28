@@ -22,7 +22,7 @@ const AboutPage =() => {
             <PageTitle pageTitle={'Sobre nosotros'} pagesub={'Nosotros'} img={img}/> 
             {/* <Features /> */}
             <About2 />
-            <FunFact/>
+            {/* <FunFact/> */}
             <Attorney/>
             <Practice2 />
             <Testimonial tClass={'pt-[100px] sm:pt-[20px]'}/>

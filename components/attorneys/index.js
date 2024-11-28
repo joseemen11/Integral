@@ -70,7 +70,7 @@ const Attorney = (props) => {
         <div className="col-span-12 text-center">
           <div className="mb-[60px]">
             <span className="text-[16px] text-azul1">
-              Conoce a nuestros expertos
+              Conoce a nuestros
             </span>
             <h2 className=" text-[36px] md:text-[26px] font-medium text-[#333] pb-[20px] relative before:absolute before:content-[''] before:left-[50%] before:bottom-0 before:transform before:-translate-x-1/2 before:w-[60px] before:h-[3px] before:bg-navbar">
               Profesionales

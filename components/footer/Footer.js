@@ -42,42 +42,27 @@ const Footer = (props) => {
                     <i className="ti-facebook"></i>
                   </Link>
                 </li>
-                {/* <li className="text-white float-left group ml-[15px]">
+                <li className="text-white float-left group ">
                   <Link
                     className="text-white transition-all group-hover:text-verde1"
-                    onClick={SubmitHandler}
-                    href="/"
-                  >
-                    <i className="ti-twitter-alt"></i>
-                  </Link>
-                </li>
-                <li className="text-white float-left group ml-[15px]">
-                  <Link
-                    className="text-white transition-all group-hover:text-verde1"
-                    onClick={SubmitHandler}
-                    href="/"
+                    href="https://m.facebook.com/people/IntegralPro-SRL/100063030170218"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="ti-linkedin"></i>
                   </Link>
                 </li>
-                <li className="text-white float-left group ml-[15px]">
+                <li className="text-white float-left group ">
                   <Link
                     className="text-white transition-all group-hover:text-verde1"
-                    onClick={SubmitHandler}
-                    href="/"
+                    href="https://m.facebook.com/people/IntegralPro-SRL/100063030170218"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <i className="ti-pinterest"></i>
+                    <i className="ti-tiktok"></i>
                   </Link>
                 </li>
-                <li className="text-white float-left group ml-[15px]">
-                  <Link
-                    className="text-white transition-all group-hover:text-verde1"
-                    onClick={SubmitHandler}
-                    href="/"
-                  >
-                    <i className="ti-vimeo-alt"></i>
-                  </Link>
-                </li> */}
+
               </ul>
             </div>
             <div className="w-[200px] md:w-full ml-auto md:mb-[40px] lg:pr-0 relative text-left ">
@@ -187,7 +172,7 @@ const Footer = (props) => {
               </div>
               <ul>
                 <li className="relative mb-[8px] block text-white">
-                Avenida 16 de Julio, Edificio Ex Hotel Plaza
+                Avenida 16 de Julio, Edificio Ex Hotel Plaza. El Prado
                 </li>
                 <li className="relative mb-[8px] block text-white">
                   Piso 4, Oficina 417.

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
-import abImg from "/public/images/integralPro/logos/Logocuadradoblanco.png";
+import abImg from "/public/images/integralPro/logos/Logocuadradooscuro.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -19,9 +19,7 @@ const About2 = (props) => {
                 </span> */}
                 <h2
                   className="text-[36px] md:text-[26px] font-medium text-[#333] pb-[20px] relative 
-                        before:absolute before:content-[''] before:left-[-68px] 
-                        before:top-[30px] before:transform before:-translate-y-1/2 
-                        before:w-[60px] before:h-[1px] before:bg-navbar md:before:hidden text-justify"
+                       en text-justify"
                 >
                   ¿Quiénes somos?
                 </h2>
@@ -75,7 +73,7 @@ const About2 = (props) => {
           <div className="col-span-6 md:col-span-12">
             <div className="relative mb-[20px]">
               <div
-                className="relative  max-w-[520px] ml-auto before:absolute before:bg-verde1
+                className="relative  max-w-[520px] ml-auto before:absolute before:bg-celeste1
                      before:w-full before:h-full before:content-[''] before:-z-30 before:right-[-10px] before:bottom-[-10px] "
               >
                 <div
