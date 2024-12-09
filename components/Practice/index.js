@@ -25,17 +25,17 @@ const Practice = (props) => {
               key={Pitem}
             >
               <div className="group flex sm:mx-[80px] col:mx-0">
-                <div className="h-[80px] w-[80px]">
+                {/* <div className="h-[80px] w-[80px]">
                   <div className="h-[80px] w-[80px] leading-[75px] border border-azul1/50 rounded-[50%] text-center">
                     <i
                       className={`fi ${practice.icon}  text-[50px] col:text-[40px] col:leading-[45px] transition-all text-azul1 group-hover:text-verde1`}
                     ></i>
                   </div>
-                </div>
+                </div> */}
                 <div className="pl-[24px]  pr-[15px]">
                   <h3
-                    className="text-azul1 text-[24px] col:text-[20px] font-medium pb-[10px] relative mb-[10px]
-                            before:absolute before:content-[''] before:left-0 before:bottom-0 before:w-[30px] before:h-[2px] before:bg-azul1"
+                    className="text-azul1 text-[24px] col:text-[20px] font-medium pb-[10px] relative mb-[10px] 
+             before:absolute before:content-[''] before:left-1/2 before:bottom-0 before:transform before:-translate-x-1/2 before:w-[60px] before:h-[2px] before:bg-azul1 text-center"
                   >
                     <div
                       // onClick={ClickHandler}
