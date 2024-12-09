@@ -42,7 +42,7 @@ const Cases = [
               },
               {
                 title: "Confidencialidad y seguridad:",
-                subtitle: "Contabilidad Integral:",
+                subtitle: "Manejo seguro de la información financiera de tu empresa",
               },
               {
                 title: "Toma de decisiones informada:",
@@ -138,7 +138,7 @@ const Cases = [
               {
                 title: "Capacitación gratuita:",
                 subtitle:
-                  "Dependiendo del tamaño de la empresa y el volumen de operaciones. Se puede estructurar en paquete.",
+                  "1 Taller anual para mejorar la gestión financiera interna de la empresa.",
               },
             ],
           },
@@ -408,7 +408,7 @@ const Cases = [
       {
         contentTitle: "REVALORIZACIÓN DE ACTIVOS FIJOS",
         contentSubtitle:
-          "Te ayudamos a determinar el valor actualizado de tus activos fijos, garantizando que reflejen su valor real en el mercado y en los libros contables.",
+          "Te ayudamos a determinar el valor actualizado de tus activos fijos, garantizando que reflejen su valor real en el mercado y en los libros contables. Este servicio mejora tu posición financiera y asegura un manejo eficiente de tus bienes.",
         content: [
           {
             name: "BENEFICIOS CLAVE",
@@ -582,7 +582,7 @@ const Cases = [
       {
         contentTitle: "TRÁMITES ADMINISTRATIVOS",
         contentSubtitle:
-          "Facilitamos todos los trámites administrativos para la creación y puesta en marcha de tu empresa legalmente establecida, desde la inscripción hasta la obtención de todas las licencias y registros obligatorios.",
+          "Facilitamos todos los trámites administrativos para la creación y puesta en marcha de tu empresa legalmente establecida, desde la inscripción hasta la obtención de todas las licencias y registros obligatorios. Nos encargamos de todo el proceso, ahorrándote tiempo y evitando complicaciones.",
         content: [
           {
             name: "BENEFICIOS CLAVE",
@@ -726,13 +726,13 @@ const Cases = [
               },
               {
                 title:
-                  "Asesoramiento en la planificación y ejecución del presupuesto anual y plurianual:",
-                subtitle: "",
+                  "",
+                subtitle: "Asesoramiento en la planificación y ejecución del presupuesto anual y plurianual",
               },
               {
                 title:
-                  "Implementación de sistemas de control interno y transparencia administrativa:",
-                subtitle: "",
+                  "",
+                subtitle: "Implementación de sistemas de control interno y transparencia administrativa",
               },
               {
                 title: "Auditoría Gubernamental:",
@@ -741,8 +741,8 @@ const Cases = [
               },
               {
                 title:
-                  "Evaluación de la eficiencia y el impacto de programas y proyectos gubernamentales:",
-                subtitle: "",
+                  "",
+                subtitle: "Evaluación de la eficiencia y el impacto de programas y proyectos gubernamentales",
               },
               {
                 title: "Capacitación para Funcionarios Públicos:",
@@ -756,8 +756,8 @@ const Cases = [
               },
               {
                 title:
-                  "Identificación de áreas de mejora y estrategias para la implementación eficaz de las políticas:",
-                subtitle: "",
+                  "",
+                subtitle: "Identificación de áreas de mejora y estrategias para la implementación eficaz de las políticas",
               },
             ],
           },
@@ -1377,9 +1377,19 @@ const Cases = [
                   "Cobro por el servicio de reclutamiento y selección, basado en el tipo de puesto (ejecutivo, técnico, operativo) y la cantidad de candidatos a contratar.",
               },
               {
-                title: "Paquetes de reclutamiento:",
+                title: "Paquetes de reclutamiento",
                 subtitle:
-                  "Básico: Filtro inicial, entrevistas preliminares y presentación de candidatos aptos. Intermedio: Incluye pruebas psicométricas y técnicas, además de la evaluación de competencias.",
+                  "",
+              },
+              {
+                title: "Básico:",
+                subtitle:
+                  "Filtro inicial, entrevistas preliminares y presentación de candidatos aptos",
+              },
+              {
+                title: "Intermedio:",
+                subtitle:
+                  "Incluye pruebas psicométricas y técnicas, además de la evaluación de competencias.",
               },
             ],
           },
@@ -1518,32 +1528,68 @@ const Cases = [
               {
                 title: "Constitución Legal de Empresas:",
                 subtitle:
-                  "Asesoría en la elección de la forma jurídica más adecuada para tu empresa (unipersonal, SRL, SA, etc.). Elaboración y registro de la escritura de constitución de la empresa. Registro en SEPREC para formalizar la existencia legal de tu negocio.",
+                  "Asesoría en la elección de la forma jurídica más adecuada para tu empresa (unipersonal, SRL, SA, etc.).",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Elaboración y registro de la escritura de constitución de la empresa.",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Registro en SEPREC para formalizar la existencia legal de tu negocio.",
               },
               {
                 title: "Obtención de Licencias y Permisos:",
                 subtitle:
-                  "Trámite de la Licencia de Funcionamiento Municipal en la alcaldía correspondiente. Asesoría y gestión de otros permisos específicos requeridos según la actividad económica (salud, alimentos, construcción, etc.).",
+                  "Trámite de la Licencia de Funcionamiento Municipal en la alcaldía correspondiente.",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Asesoría y gestión de otros permisos específicos requeridos según la actividad económica (salud, alimentos, construcción, etc.).",
               },
               {
                 title: "Registro en el Ministerio de Trabajo:",
                 subtitle:
-                  "Formalización de la empresa en el Ministerio de Trabajo, incluyendo el registro en el ROE. Trámites de afiliación al Seguro Social Obligatorio (CNS o aseguradoras privadas) y a la Gestora de la Seguridad Social a Largo Plazo.",
+                  "Formalización de la empresa en el Ministerio de Trabajo, incluyendo el registro en el ROE.",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Trámites de afiliación al Seguro Social Obligatorio (CNS o aseguradoras privadas) y a la Gestora de la Seguridad Social a Largo Plazo.",
               },
               {
                 title: "Gestión de Aportes Laborales:",
                 subtitle:
-                  "Asesoría en la inscripción de tus empleados en el sistema de aportes y seguros sociales Gestora Pública. Gestión mensual de los aportes y trámites de seguro laboral.",
+                  "Asesoría en la inscripción de tus empleados en el sistema de aportes y seguros sociales Gestora Pública.",
               },
+              {
+                title: "",
+                subtitle:
+                  "Gestión mensual de los aportes y trámites de seguro laboral.",
+              },
+              
               {
                 title: "Apertura de Cuentas Bancarias:",
                 subtitle:
-                  "Asesoría en la apertura de cuentas bancarias empresariales, necesarias para las operaciones formales de la empresa. Asistencia en los requisitos bancarios y trámites de relación con entidades financieras.",
+                  "Asesoría en la apertura de cuentas bancarias empresariales, necesarias para las operaciones formales de la empresa.",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Asistencia en los requisitos bancarios y trámites de relación con entidades financieras.",
               },
               {
                 title: "Asesoría Fiscal y Tributaria:",
                 subtitle:
-                  "Registro en el Servicio de Impuestos Nacionales (SIN) para obtener el NIT (Número de Identificación Tributaria). Asesoría sobre el régimen fiscal más conveniente según la actividad y tamaño de tu negocio.",
+                  "Registro en el Servicio de Impuestos Nacionales (SIN) para obtener el NIT (Número de Identificación Tributaria).",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Asesoría sobre el régimen fiscal más conveniente según la actividad y tamaño de tu negocio.",
               },
             ],
           },
@@ -1645,33 +1691,74 @@ const Cases = [
               {
                 title: "Análisis de Mercado:",
                 subtitle:
-                  "Investigación y análisis detallado del sector en el que operará tu empresa. Identificación de competidores, análisis de tendencias y oportunidades de crecimiento. Definición del mercado objetivo y segmentación de clientes.",
+                  "o	Investigación y análisis detallado del sector en el que operará tu empresa.",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Redacción de copys persuasivos enfocados en aumentar el engagement y las ventas.",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Definición del mercado objetivo y segmentación de clientes.",
               },
               {
                 title: "Propuesta de Valor:",
                 subtitle:
-                  "Diseño de la propuesta de valor única de tu empresa. Definición clara de los productos o servicios que ofreces y cómo estos resuelven problemas específicos de tus clientes.",
+                  "Diseño de la propuesta de valor única de tu empresa.",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Definición clara de los productos o servicios que ofreces y cómo estos resuelven problemas específicos de tus clientes.",
               },
               {
                 title: "Estrategia Comercial y de Marketing:",
                 subtitle:
-                  "Definición de canales de venta y estrategias de posicionamiento en el mercado. Planificación de campañas de marketing y ventas. Identificación de métodos para atraer y retener clientes.",
+                  "Definición de canales de venta y estrategias de posicionamiento en el mercado.",
+              },
+              {
+                title: "",
+                subtitle:
+                "Planificación de campañas de marketing y ventas.",
+              },
+              {
+                title: "",
+                subtitle:
+                "Identificación de métodos para atraer y retener clientes.",
               },
               {
                 title: "Estrategia de Operaciones:",
                 subtitle:
-                  "Diseño de la estructura operativa: procesos clave, cadena de suministros, logística, y recursos necesarios para el correcto funcionamiento. Propuestas de optimización de procesos para garantizar eficiencia y reducción de costos.",
+                  "Diseño de la estructura operativa: procesos clave, cadena de suministros, logística, y recursos necesarios para el correcto funcionamiento.",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Propuestas de optimización de procesos para garantizar eficiencia y reducción de costos.",
               },
               {
                 title:
                   "Análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas):",
                 subtitle:
-                  "Evaluación interna y externa de la empresa. Identificación de oportunidades y desafíos del entorno empresarial.",
+                  "Evaluación interna y externa de la empresa.",
+              },
+              {
+                title:
+                  "",
+                subtitle:
+                  "Identificación de oportunidades y desafíos del entorno empresarial.",
               },
               {
                 title: "Plan de Implementación:",
                 subtitle:
-                  "Hoja de ruta detallada con hitos y fechas clave para la puesta en marcha y crecimiento de la empresa. Estrategia de seguimiento y control del plan de negocios.",
+                  "Hoja de ruta detallada con hitos y fechas clave para la puesta en marcha y crecimiento de la empresa.",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Estrategia de seguimiento y control del plan de negocios.",
               },
             ],
           },
@@ -1754,22 +1841,47 @@ const Cases = [
               {
                 title: "Estrategia de Marketing Digital:",
                 subtitle:
-                  "Evaluación inicial de tu presencia online actual y creación de un plan de marketing digital adaptado a tus objetivos empresariales. Definición de las mejores plataformas y canales para alcanzar a tu audiencia (redes sociales, Google, email marketing, etc.).",
+                  "Evaluación inicial de tu presencia online actual y creación de un plan de marketing digital adaptado a tus objetivos empresariales. ",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Definición de las mejores plataformas y canales para alcanzar a tu audiencia (redes sociales, Google, email marketing, etc.).",
               },
               {
                 title: "Gestión de Redes Sociales:",
                 subtitle:
-                  "Creación y gestión de perfiles en las principales plataformas (Facebook, Instagram, Twitter, LinkedIn, etc.). Publicación de contenido relevante, interactivo y enfocado en la conversión. Monitoreo de interacciones, crecimiento de seguidores y campañas pagadas en redes sociales.",
+                  "Creación y gestión de perfiles en las principales plataformas (Facebook, Instagram, Twitter, LinkedIn, etc.).",
+              },
+              {
+                title: "",
+                subtitle:
+                "Publicación de contenido relevante, interactivo y enfocado en la conversión",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Monitoreo de interacciones, crecimiento de seguidores y campañas pagadas en redes sociales.",
               },
               {
                 title: "Publicidad Digital (SEM y Social Ads):",
                 subtitle:
-                  "Diseño y gestión de campañas pagadas en Google Ads y redes sociales. Creación de anuncios dirigidos a audiencias específicas para aumentar conversiones.",
+                  "Diseño y gestión de campañas pagadas en Google Ads y redes sociales.",
+              },
+              {
+                title: "",
+                subtitle:
+                  " Creación de anuncios dirigidos a audiencias específicas para aumentar conversiones.",
               },
               {
                 title: "Creación de Contenido:",
                 subtitle:
-                  "Desarrollo de contenido creativo, incluyendo blogs, infografías, videos y material gráfico que refuercen la identidad de tu marca. Redacción de copys persuasivos enfocados en aumentar el engagement y las ventas.",
+                  "Desarrollo de contenido creativo, incluyendo blogs, infografías, videos y material gráfico que refuercen la identidad de tu marca. ",
+              },
+              {
+                title: "",
+                subtitle:
+                  "Redacción de copys persuasivos enfocados en aumentar el engagement y las ventas.",
               },
             ],
           },

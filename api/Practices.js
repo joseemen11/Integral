@@ -15,7 +15,7 @@ Practices = [
         description:'Actuamos con honestidad, transparencia y ética en todas nuestras relaciones y actividades comerciales, manteniendo la confianza y el respeto de nuestros clientes, colaboradores y socios.',
         des2:'There are many variations of passages of Lorem',
         des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
-        icon:'flaticon-wounded',
+        icon:'flaticon-employee',
     },
     {
         Id: '2',
@@ -25,7 +25,7 @@ Practices = [
         description:'Nos comprometemos a alcanzar la excelencia en todo lo que hacemos, buscando continuamente la mejora y superando las expectativas de nuestros clientes.',
         des2:'There are many variations of passages of Lorem',
         des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
-        icon:'flaticon-parents',
+        icon:'flaticon-employee',
     },
     {
         Id: '3',
@@ -45,7 +45,7 @@ Practices = [
         description:'Valoramos el trabajo en equipo y la colaboración, reconociendo que el éxito se logra mejorando nuestras fortalezas individuales y aprovechando la diversidad de ideas y perspectivas',
         des2:'There are many variations of passages of Lorem',
         des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
-        icon:'flaticon-thief',
+        icon:'flaticon-employee',
     },
     {
         Id: '5',
@@ -55,7 +55,7 @@ Practices = [
         description:'Estamos comprometidos con la satisfacción y el éxito de nuestros clientes, brindando un servicio excepcional y cumpliendo con nuestros compromisos de manera consistente y confiable.',
         des2:'There are many variations of passages of Lorem',
         des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
-        icon:'flaticon-university-graduate-hat',
+        icon:'flaticon-employee',
     },
     {
         Id: '6',
@@ -65,7 +65,7 @@ Practices = [
         description:'Nos responsabilizamos de nuestras acciones y sus consecuencias, asumiendo la responsabilidad de nuestro impacto en la sociedad y el medio ambiente, y buscando contribuir de manera positiva a ambos.',
         des2:'There are many variations of passages of Lorem',
         des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
-        icon:'flaticon-house',
+        icon:'flaticon-employee',
     },
 ]
 // const Practices = [

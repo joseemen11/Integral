@@ -100,7 +100,7 @@ const Hero = () => {
                         tus finanzas bajo control.
                       </p>
                     </div>
-                    <div className="btns mt-5 flex justify-center">
+                    <div className="btns mt-5 flex justify-start">
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
@@ -145,7 +145,7 @@ const Hero = () => {
                         para la confianza financiera.
                       </p>
                     </div>
-                    <div className="btns mt-5 flex justify-center">
+                    <div className="btns mt-5 flex justify-start">
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
@@ -190,7 +190,7 @@ const Hero = () => {
                         resultados excepcionales.
                       </p>
                     </div>
-                    <div className="btns mt-5 flex justify-center">
+                    <div className="btns mt-5 flex justify-start">
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
@@ -235,7 +235,7 @@ const Hero = () => {
                         y lidera con conocimiento.
                       </p>
                     </div>
-                    <div className="btns mt-5 flex justify-center">
+                    <div className="btns mt-5 flex justify-start">
                       <div className="btn-style">
                         <Link
                           onClick={ClickHandler}
