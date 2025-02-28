@@ -2,7 +2,7 @@
 import blogImg1 from '/public/images/blog/1.jpg';
 import blogImg2 from '/public/images/blog/2.jpg';
 import blogImg3 from '/public/images/blog/3.jpg';
-
+   
 import blogAvaterImg1 from '/public/images/blog/author-1.jpg';
 import blogAvaterImg2 from '/public/images/blog/author-2.jpg';
 import blogAvaterImg3 from '/public/images/blog/author-3.jpg';
